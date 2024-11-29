@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>{% block title %} {{ title }} {% endblock %}</title>
+<link type="text/css" href="{{ url_for('.static', filename='css/styles.css')}}" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="shortcut icon" href="{{ url_for('.static', filename='/images/main.ico') }} " type="image/x-icon"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <table class="table-page" border=0 cellpadding="0" cellspacing="0">
+        <tr>
+            <td valign=top>
+
+
+{% block mainmenu %}
+<div class="header">
+<ul id="mainmenu" class="mainmenu">
+<li class="logo"><a href="{{home}}"><div class="logo"></div></a></li>
+{% for m in menu %}
+<li><a href="{{m.url}}">{{m.title}}</a></li>
+{% endfor %}
+
+{% if current_user.is_authenticated %}
+<li class="last"><a href="{{ url_for('user', username=current_user.username) }}">{{current_user.username}}</a> | <a href="{{ url_for('logout') }}">Выйти</a></li>
+{% else %}
+<li class="last"><a href="{{ url_for('register') }}">Регистрация</a>|<a href="{{ url_for('login') }}">Войти</a></li>
+{% endif %}
+</ul>
+</div>
+{% endblock %}
+                                <table class="table-content" border=0 cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td valign="top" class="left-chapters">
+                                            
+                                            {% block sidebar %}
+                                            {% for b in b_menu %}
+                                            <div class="clear">
+                                            <ul><li><a href="{{b.id}}">{{ b.cat }}</a></li></ul>
+                                            </div>
+                                            {% endfor %}
+                                            {% endblock %}
+
+
+                                         </td>   
+                                        <td valign="top" class="content">
+                                            {% block breadcrumbs %}
+                                                <div>
+                                                    <ul class="breadcrumbs "><li class="img-article-left">{{title}}</li></ul>
+                                                </div>
+                                            {% endblock %}
+
+                                            {% block content %}
+                                            
+                                            {% endblock %}
+                                            {% block navigation %}
+                                            <div class="breadcrumbs">
+
+                                                    {% if prev_url %}
+                                                        <a href="{{ prev_url }}">Следующая страница</a>
+                                                    {% endif %}
+                                                    {% if next_url %}
+                                                        <a href="{{ next_url }}">Предыдущая страница</a>
+                                                    {% endif %}
+                                            </div>
+
+                                            {% endblock %}
+
+                                        </td>
+                                    </tr>
+                                </table>
+
+
+            </td>
+        </tr>
+
+
+        <tr>
+            <td valign=top>
+                <div id="footer"><p align="center">created © 2024</p></div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

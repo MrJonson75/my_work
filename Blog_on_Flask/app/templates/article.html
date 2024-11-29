@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block content %}
+{{ super() }}
+<div class="article-panel">
+    {% if article.foto_body %}
+    <p><img class="img-article-left" src="{{ url_for('static', filename=article.foto_body)}}"></p>
+    {% endif %}
+
+
+</div>
+<p class="annonce">{{ article.article | safe}}</p>
+
+{% if current_user.is_authenticated %}
+
+    <h1>Привет, {{ current_user.username }}!</h1>
+    {% if form %}
+    <form action="" method="post">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.body.label }}<br>
+            {{ form.body(cols=32, rows=4) }}<br>
+            {% for error in form.body.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+    {% endif %}
+    {% for comm in comment %}
+    <p>
+    {{ comm.authors.username }} Оставил сообшение: <b>{{ comm.body }} в такое время: {{ comm.timestamp }}</b>
+    </p>
+    {% endfor %}
+
+
+{% endif%}
+
+</p>
+
+
+
+
+{% endblock %}
+
+

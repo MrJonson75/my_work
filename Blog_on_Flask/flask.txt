@@ -1,0 +1,89 @@
+\FLASK
+¦   app.db
+¦   article.py
+¦   config.py
+¦   flask.txt
+¦   flaskenv.py
+¦   read_me.txt
+¦   requirements.txt
+¦   
++---app
+¦   ¦   errors.py
+¦   ¦   forms.py
+¦   ¦   models.py
+¦   ¦   routes.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---static
+¦   ¦   +---css
+¦   ¦   ¦       styles.css
+¦   ¦   ¦       
+¦   ¦   L---upload
+¦   ¦       L---image_article
+¦   ¦           +---2024-10-14
+¦   ¦           ¦       Battlefield_V.jpg
+¦   ¦           ¦       CIVILIZACIYA_body.jpg
+¦   ¦           ¦       CIVILIZACIYA_TITLE.jpg
+¦   ¦           ¦       Fallout_New_Vegas.jpg
+¦   ¦           ¦       
+¦   ¦           +---2024-10-15
+¦   ¦           ¦       Age_of_Empires.jpg
+¦   ¦           ¦       Age_of_Empires_body.jpg
+¦   ¦           ¦       fallout_76_body.jpg
+¦   ¦           ¦       fallout_76_title.jpg
+¦   ¦           ¦       KINGDOM_COME.jpg
+¦   ¦           ¦       KINGDOM_COME_body.jpg
+¦   ¦           ¦       metro.jpg
+¦   ¦           ¦       metro_body.jpg
+¦   ¦           ¦       Rome_II.jpg
+¦   ¦           ¦       Rome_II_body.jpg
+¦   ¦           ¦       
+¦   ¦           +---2024-10-16
+¦   ¦           ¦       KINGDOM_COME_body.jpg
+¦   ¦           ¦       kisspng-computer-icons-avatar-social-media-blog-font-aweso-avatar-icon-5b2e99c40ce333.6524068515297806760528.jpg
+¦   ¦           ¦       witcher.jpg
+¦   ¦           ¦       witcher_boddy.jpg
+¦   ¦           ¦       
+¦   ¦           L---2024-10-17
+¦   ¦                   Age_of_Empires.jpg
+¦   ¦                   Age_of_Empires_body.jpg
+¦   ¦                   CIVILIZACIYA_body.jpg
+¦   ¦                   CIVILIZACIYA_TITLE.jpg
+¦   ¦                   metro.jpg
+¦   ¦                   metro_body.jpg
+¦   ¦                   Rome_II.jpg
+¦   ¦                   Rome_II_body.jpg
+¦   ¦                   witcher.jpg
+¦   ¦                   witcher_boddy.jpg
+¦   ¦                   
+¦   L---templates
+¦           404.html
+¦           500.html
+¦           about.html
+¦           add_article.html
+¦           article.html
+¦           base.html
+¦           contact.html
+¦           edit_article.html
+¦           edit_profile.html
+¦           index.html
+¦           login.html
+¦           profile.html
+¦           register.html
+¦           _post.html
+¦           
+L---migrations
+    ¦   alembic.ini
+    ¦   env.py
+    ¦   README
+    ¦   script.py.mako
+    ¦   
+    +---versions
+    ¦   ¦   b605ae744e08_add_table.py
+    ¦   ¦   
+    ¦   L---__pycache__
+    ¦           b605ae744e08_add_table.cpython-313.pyc
+    ¦           
+    L---__pycache__
+            env.cpython-313.pyc
+            

@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+ 
+{% block content %}
+{{ super() }}
+<h2>Список статей</h2>
+<ul class="list-posts">
+{% if article %}
+{% for p in article %}
+	<li>
+	<div class="clear">
+	<p class="first">Категория: {{p.categories.cat}}</p>
+	<p class="last"><a href="{{ url_for('user', username=p.author.username) }}">Автор статьи: {{p.author.username}}</a>  |   Дата публикации: {{ p.timestamp }}</p>
+	</div>
+	{% if p.foto_title %}
+	    <p><img class="img-article-left thumb" src="{{ url_for('static', filename=p.foto_title)}}"></p>
+	{% endif %}
+
+	<p class="title"><a href="{{ url_for('show_article', slug=p.slug)}}">{{p.title}}</a></p>
+	<p class="annonce">{{ p.description[:500] | striptags}}</p>
+	<div class="clear">
+					<p class="link-read-post">
+					{% if current_user.is_authenticated %}
+						{% if p.author == current_user %}
+						    <a href="{{ url_for('delete_post', slug=p.slug)}}">Удалить</a>
+						    <a href="{{ url_for('update_post', slug=p.slug)}}">Редактировать</a>
+						{% endif %}
+					{% endif %}
+					<a href="{{ url_for('show_article', slug=p.slug)}}">Читать Статью</a> </p>
+	</dIv>
+</li>
+
+{% endfor %}
+
+
+
+
+{% else %}
+	<h2>В данной категории нет статей</h2>
+{% endif %}
+</ul>
+
+
+
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
