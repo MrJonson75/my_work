@@ -1,0 +1,1844 @@
+Ñòðóêòóðà ïàïîê òîìà Íîâûé òîì
+Ñåðèéíûé íîìåð òîìà: 24E5-4646
+D:\DIPLOM\COD\DJANGO
+¦   db.sqlite3
+¦   django.txt
+¦   manage.py
+¦   requirements.txt
+¦   
++---blog
+¦   ¦   admin.py
+¦   ¦   apps.py
+¦   ¦   authentication.py
+¦   ¦   forms.py
+¦   ¦   models.py
+¦   ¦   tests.py
+¦   ¦   urls.py
+¦   ¦   utils.py
+¦   ¦   views.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---migrations
+¦   L---templatetags
+¦           blog_tags.py
+¦           __init__.py
+¦           
++---GameBlog
+¦       asgi.py
+¦       settings.py
+¦       urls.py
+¦       wsgi.py
+¦       __init__.py
+¦       
++---media
+¦   +---photos
+¦   L---uploads
+¦       L---admin
++---static
+¦   +---admin
+¦   ¦   +---css
+¦   ¦   ¦   ¦   autocomplete.css
+¦   ¦   ¦   ¦   base.css
+¦   ¦   ¦   ¦   changelists.css
+¦   ¦   ¦   ¦   dark_mode.css
+¦   ¦   ¦   ¦   dashboard.css
+¦   ¦   ¦   ¦   forms.css
+¦   ¦   ¦   ¦   login.css
+¦   ¦   ¦   ¦   nav_sidebar.css
+¦   ¦   ¦   ¦   responsive.css
+¦   ¦   ¦   ¦   responsive_rtl.css
+¦   ¦   ¦   ¦   rtl.css
+¦   ¦   ¦   ¦   unusable_password_field.css
+¦   ¦   ¦   ¦   widgets.css
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   L---vendor
+¦   ¦   ¦       L---select2
+¦   ¦   ¦               LICENSE-SELECT2.md
+¦   ¦   ¦               select2.css
+¦   ¦   ¦               select2.min.css
+¦   ¦   ¦               
+¦   ¦   +---img
+¦   ¦   ¦   ¦   calendar-icons.svg
+¦   ¦   ¦   ¦   icon-addlink.svg
+¦   ¦   ¦   ¦   icon-alert.svg
+¦   ¦   ¦   ¦   icon-calendar.svg
+¦   ¦   ¦   ¦   icon-changelink.svg
+¦   ¦   ¦   ¦   icon-clock.svg
+¦   ¦   ¦   ¦   icon-deletelink.svg
+¦   ¦   ¦   ¦   icon-hidelink.svg
+¦   ¦   ¦   ¦   icon-no.svg
+¦   ¦   ¦   ¦   icon-unknown-alt.svg
+¦   ¦   ¦   ¦   icon-unknown.svg
+¦   ¦   ¦   ¦   icon-viewlink.svg
+¦   ¦   ¦   ¦   icon-yes.svg
+¦   ¦   ¦   ¦   inline-delete.svg
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   README.txt
+¦   ¦   ¦   ¦   search.svg
+¦   ¦   ¦   ¦   selector-icons.svg
+¦   ¦   ¦   ¦   sorting-icons.svg
+¦   ¦   ¦   ¦   tooltag-add.svg
+¦   ¦   ¦   ¦   tooltag-arrowright.svg
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   L---gis
+¦   ¦   ¦           move_vertex_off.svg
+¦   ¦   ¦           move_vertex_on.svg
+¦   ¦   ¦           
+¦   ¦   L---js
+¦   ¦       ¦   actions.js
+¦   ¦       ¦   autocomplete.js
+¦   ¦       ¦   calendar.js
+¦   ¦       ¦   cancel.js
+¦   ¦       ¦   change_form.js
+¦   ¦       ¦   core.js
+¦   ¦       ¦   filters.js
+¦   ¦       ¦   inlines.js
+¦   ¦       ¦   jquery.init.js
+¦   ¦       ¦   nav_sidebar.js
+¦   ¦       ¦   popup_response.js
+¦   ¦       ¦   prepopulate.js
+¦   ¦       ¦   prepopulate_init.js
+¦   ¦       ¦   SelectBox.js
+¦   ¦       ¦   SelectFilter2.js
+¦   ¦       ¦   theme.js
+¦   ¦       ¦   unusable_password_field.js
+¦   ¦       ¦   urlify.js
+¦   ¦       ¦   
+¦   ¦       +---admin
+¦   ¦       ¦       DateTimeShortcuts.js
+¦   ¦       ¦       RelatedObjectLookups.js
+¦   ¦       ¦       
+¦   ¦       L---vendor
+¦   ¦           +---jquery
+¦   ¦           ¦       jquery.js
+¦   ¦           ¦       jquery.min.js
+¦   ¦           ¦       LICENSE.txt
+¦   ¦           ¦       
+¦   ¦           +---select2
+¦   ¦           ¦   ¦   LICENSE.md
+¦   ¦           ¦   ¦   select2.full.js
+¦   ¦           ¦   ¦   select2.full.min.js
+¦   ¦           ¦   ¦   
+¦   ¦           ¦   L---i18n
+¦   ¦           ¦           af.js
+¦   ¦           ¦           ar.js
+¦   ¦           ¦           az.js
+¦   ¦           ¦           bg.js
+¦   ¦           ¦           bn.js
+¦   ¦           ¦           bs.js
+¦   ¦           ¦           ca.js
+¦   ¦           ¦           cs.js
+¦   ¦           ¦           da.js
+¦   ¦           ¦           de.js
+¦   ¦           ¦           dsb.js
+¦   ¦           ¦           el.js
+¦   ¦           ¦           en.js
+¦   ¦           ¦           es.js
+¦   ¦           ¦           et.js
+¦   ¦           ¦           eu.js
+¦   ¦           ¦           fa.js
+¦   ¦           ¦           fi.js
+¦   ¦           ¦           fr.js
+¦   ¦           ¦           gl.js
+¦   ¦           ¦           he.js
+¦   ¦           ¦           hi.js
+¦   ¦           ¦           hr.js
+¦   ¦           ¦           hsb.js
+¦   ¦           ¦           hu.js
+¦   ¦           ¦           hy.js
+¦   ¦           ¦           id.js
+¦   ¦           ¦           is.js
+¦   ¦           ¦           it.js
+¦   ¦           ¦           ja.js
+¦   ¦           ¦           ka.js
+¦   ¦           ¦           km.js
+¦   ¦           ¦           ko.js
+¦   ¦           ¦           lt.js
+¦   ¦           ¦           lv.js
+¦   ¦           ¦           mk.js
+¦   ¦           ¦           ms.js
+¦   ¦           ¦           nb.js
+¦   ¦           ¦           ne.js
+¦   ¦           ¦           nl.js
+¦   ¦           ¦           pl.js
+¦   ¦           ¦           ps.js
+¦   ¦           ¦           pt-BR.js
+¦   ¦           ¦           pt.js
+¦   ¦           ¦           ro.js
+¦   ¦           ¦           ru.js
+¦   ¦           ¦           sk.js
+¦   ¦           ¦           sl.js
+¦   ¦           ¦           sq.js
+¦   ¦           ¦           sr-Cyrl.js
+¦   ¦           ¦           sr.js
+¦   ¦           ¦           sv.js
+¦   ¦           ¦           th.js
+¦   ¦           ¦           tk.js
+¦   ¦           ¦           tr.js
+¦   ¦           ¦           uk.js
+¦   ¦           ¦           vi.js
+¦   ¦           ¦           zh-CN.js
+¦   ¦           ¦           zh-TW.js
+¦   ¦           ¦           
+¦   ¦           L---xregexp
+¦   ¦                   LICENSE.txt
+¦   ¦                   xregexp.js
+¦   ¦                   xregexp.min.js
+¦   ¦                   
+¦   +---blog
+¦   ¦   +---css
+¦   ¦   ¦       styles.css
+¦   ¦   ¦       
+¦   ¦   +---images
+¦   ¦   ¦       blockquote.png
+¦   ¦   ¦       btn_yt.png
+¦   ¦   ¦       logo.png
+¦   ¦   ¦       main.ico
+¦   ¦   ¦       share_yt.png
+¦   ¦   ¦       smallmenu.png
+¦   ¦   ¦       
+¦   ¦   L---js
+¦   +---ckeditor
+¦   ¦   ¦   ckeditor-init.js
+¦   ¦   ¦   ckeditor.css
+¦   ¦   ¦   
+¦   ¦   +---ckeditor
+¦   ¦   ¦   ¦   bender-runner.config.json
+¦   ¦   ¦   ¦   build-config.js
+¦   ¦   ¦   ¦   CHANGES.md
+¦   ¦   ¦   ¦   ckeditor.js
+¦   ¦   ¦   ¦   config.js
+¦   ¦   ¦   ¦   contents.css
+¦   ¦   ¦   ¦   LICENSE.md
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   SECURITY.md
+¦   ¦   ¦   ¦   styles.js
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---adapters
+¦   ¦   ¦   ¦       jquery.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---lang
+¦   ¦   ¦   ¦       af.js
+¦   ¦   ¦   ¦       ar.js
+¦   ¦   ¦   ¦       az.js
+¦   ¦   ¦   ¦       bg.js
+¦   ¦   ¦   ¦       bn.js
+¦   ¦   ¦   ¦       bs.js
+¦   ¦   ¦   ¦       ca.js
+¦   ¦   ¦   ¦       cs.js
+¦   ¦   ¦   ¦       cy.js
+¦   ¦   ¦   ¦       da.js
+¦   ¦   ¦   ¦       de-ch.js
+¦   ¦   ¦   ¦       de.js
+¦   ¦   ¦   ¦       el.js
+¦   ¦   ¦   ¦       en-au.js
+¦   ¦   ¦   ¦       en-ca.js
+¦   ¦   ¦   ¦       en-gb.js
+¦   ¦   ¦   ¦       en.js
+¦   ¦   ¦   ¦       eo.js
+¦   ¦   ¦   ¦       es-mx.js
+¦   ¦   ¦   ¦       es.js
+¦   ¦   ¦   ¦       et.js
+¦   ¦   ¦   ¦       eu.js
+¦   ¦   ¦   ¦       fa.js
+¦   ¦   ¦   ¦       fi.js
+¦   ¦   ¦   ¦       fo.js
+¦   ¦   ¦   ¦       fr-ca.js
+¦   ¦   ¦   ¦       fr.js
+¦   ¦   ¦   ¦       gl.js
+¦   ¦   ¦   ¦       gu.js
+¦   ¦   ¦   ¦       he.js
+¦   ¦   ¦   ¦       hi.js
+¦   ¦   ¦   ¦       hr.js
+¦   ¦   ¦   ¦       hu.js
+¦   ¦   ¦   ¦       id.js
+¦   ¦   ¦   ¦       is.js
+¦   ¦   ¦   ¦       it.js
+¦   ¦   ¦   ¦       ja.js
+¦   ¦   ¦   ¦       ka.js
+¦   ¦   ¦   ¦       km.js
+¦   ¦   ¦   ¦       ko.js
+¦   ¦   ¦   ¦       ku.js
+¦   ¦   ¦   ¦       lt.js
+¦   ¦   ¦   ¦       lv.js
+¦   ¦   ¦   ¦       mk.js
+¦   ¦   ¦   ¦       mn.js
+¦   ¦   ¦   ¦       ms.js
+¦   ¦   ¦   ¦       nb.js
+¦   ¦   ¦   ¦       nl.js
+¦   ¦   ¦   ¦       no.js
+¦   ¦   ¦   ¦       oc.js
+¦   ¦   ¦   ¦       pl.js
+¦   ¦   ¦   ¦       pt-br.js
+¦   ¦   ¦   ¦       pt.js
+¦   ¦   ¦   ¦       ro.js
+¦   ¦   ¦   ¦       ru.js
+¦   ¦   ¦   ¦       si.js
+¦   ¦   ¦   ¦       sk.js
+¦   ¦   ¦   ¦       sl.js
+¦   ¦   ¦   ¦       sq.js
+¦   ¦   ¦   ¦       sr-latn.js
+¦   ¦   ¦   ¦       sr.js
+¦   ¦   ¦   ¦       sv.js
+¦   ¦   ¦   ¦       th.js
+¦   ¦   ¦   ¦       tr.js
+¦   ¦   ¦   ¦       tt.js
+¦   ¦   ¦   ¦       ug.js
+¦   ¦   ¦   ¦       uk.js
+¦   ¦   ¦   ¦       vi.js
+¦   ¦   ¦   ¦       zh-cn.js
+¦   ¦   ¦   ¦       zh.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---plugins
+¦   ¦   ¦   ¦   ¦   icons.png
+¦   ¦   ¦   ¦   ¦   icons_hidpi.png
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---a11yhelp
+¦   ¦   ¦   ¦   ¦   L---dialogs
+¦   ¦   ¦   ¦   ¦       ¦   a11yhelp.js
+¦   ¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦   ¦       L---lang
+¦   ¦   ¦   ¦   ¦               af.js
+¦   ¦   ¦   ¦   ¦               ar.js
+¦   ¦   ¦   ¦   ¦               az.js
+¦   ¦   ¦   ¦   ¦               bg.js
+¦   ¦   ¦   ¦   ¦               ca.js
+¦   ¦   ¦   ¦   ¦               cs.js
+¦   ¦   ¦   ¦   ¦               cy.js
+¦   ¦   ¦   ¦   ¦               da.js
+¦   ¦   ¦   ¦   ¦               de-ch.js
+¦   ¦   ¦   ¦   ¦               de.js
+¦   ¦   ¦   ¦   ¦               el.js
+¦   ¦   ¦   ¦   ¦               en-au.js
+¦   ¦   ¦   ¦   ¦               en-gb.js
+¦   ¦   ¦   ¦   ¦               en.js
+¦   ¦   ¦   ¦   ¦               eo.js
+¦   ¦   ¦   ¦   ¦               es-mx.js
+¦   ¦   ¦   ¦   ¦               es.js
+¦   ¦   ¦   ¦   ¦               et.js
+¦   ¦   ¦   ¦   ¦               eu.js
+¦   ¦   ¦   ¦   ¦               fa.js
+¦   ¦   ¦   ¦   ¦               fi.js
+¦   ¦   ¦   ¦   ¦               fo.js
+¦   ¦   ¦   ¦   ¦               fr-ca.js
+¦   ¦   ¦   ¦   ¦               fr.js
+¦   ¦   ¦   ¦   ¦               gl.js
+¦   ¦   ¦   ¦   ¦               gu.js
+¦   ¦   ¦   ¦   ¦               he.js
+¦   ¦   ¦   ¦   ¦               hi.js
+¦   ¦   ¦   ¦   ¦               hr.js
+¦   ¦   ¦   ¦   ¦               hu.js
+¦   ¦   ¦   ¦   ¦               id.js
+¦   ¦   ¦   ¦   ¦               it.js
+¦   ¦   ¦   ¦   ¦               ja.js
+¦   ¦   ¦   ¦   ¦               km.js
+¦   ¦   ¦   ¦   ¦               ko.js
+¦   ¦   ¦   ¦   ¦               ku.js
+¦   ¦   ¦   ¦   ¦               lt.js
+¦   ¦   ¦   ¦   ¦               lv.js
+¦   ¦   ¦   ¦   ¦               mk.js
+¦   ¦   ¦   ¦   ¦               mn.js
+¦   ¦   ¦   ¦   ¦               nb.js
+¦   ¦   ¦   ¦   ¦               nl.js
+¦   ¦   ¦   ¦   ¦               no.js
+¦   ¦   ¦   ¦   ¦               oc.js
+¦   ¦   ¦   ¦   ¦               pl.js
+¦   ¦   ¦   ¦   ¦               pt-br.js
+¦   ¦   ¦   ¦   ¦               pt.js
+¦   ¦   ¦   ¦   ¦               ro.js
+¦   ¦   ¦   ¦   ¦               ru.js
+¦   ¦   ¦   ¦   ¦               si.js
+¦   ¦   ¦   ¦   ¦               sk.js
+¦   ¦   ¦   ¦   ¦               sl.js
+¦   ¦   ¦   ¦   ¦               sq.js
+¦   ¦   ¦   ¦   ¦               sr-latn.js
+¦   ¦   ¦   ¦   ¦               sr.js
+¦   ¦   ¦   ¦   ¦               sv.js
+¦   ¦   ¦   ¦   ¦               th.js
+¦   ¦   ¦   ¦   ¦               tr.js
+¦   ¦   ¦   ¦   ¦               tt.js
+¦   ¦   ¦   ¦   ¦               ug.js
+¦   ¦   ¦   ¦   ¦               uk.js
+¦   ¦   ¦   ¦   ¦               vi.js
+¦   ¦   ¦   ¦   ¦               zh-cn.js
+¦   ¦   ¦   ¦   ¦               zh.js
+¦   ¦   ¦   ¦   ¦               _translationstatus.txt
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---about
+¦   ¦   ¦   ¦   ¦   L---dialogs
+¦   ¦   ¦   ¦   ¦       ¦   about.js
+¦   ¦   ¦   ¦   ¦       ¦   logo_ckeditor.png
+¦   ¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦   ¦       L---hidpi
+¦   ¦   ¦   ¦   ¦               logo_ckeditor.png
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---adobeair
+¦   ¦   ¦   ¦   ¦       plugin.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---ajax
+¦   ¦   ¦   ¦   ¦       plugin.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---autoembed
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   L---lang
+¦   ¦   ¦   ¦   ¦           cs.js
+¦   ¦   ¦   ¦   ¦           de.js
+¦   ¦   ¦   ¦   ¦           en.js
+¦   ¦   ¦   ¦   ¦           it.js
+¦   ¦   ¦   ¦   ¦           ku.js
+¦   ¦   ¦   ¦   ¦           nb.js
+¦   ¦   ¦   ¦   ¦           pl.js
+¦   ¦   ¦   ¦   ¦           pt-br.js
+¦   ¦   ¦   ¦   ¦           tr.js
+¦   ¦   ¦   ¦   ¦           zh.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---autogrow
+¦   ¦   ¦   ¦   ¦       plugin.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---autolink
+¦   ¦   ¦   ¦   ¦       plugin.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---bbcode
+¦   ¦   ¦   ¦   ¦       plugin.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---clipboard
+¦   ¦   ¦   ¦   ¦   L---dialogs
+¦   ¦   ¦   ¦   ¦           paste.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---codesnippet
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       codesnippet.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   +---icons
+¦   ¦   ¦   ¦   ¦   ¦   ¦   codesnippet.png
+¦   ¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   ¦   L---hidpi
+¦   ¦   ¦   ¦   ¦   ¦           codesnippet.png
+¦   ¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   ¦   +---lang
+¦   ¦   ¦   ¦   ¦   ¦       ar.js
+¦   ¦   ¦   ¦   ¦   ¦       bg.js
+¦   ¦   ¦   ¦   ¦   ¦       ca.js
+¦   ¦   ¦   ¦   ¦   ¦       cs.js
+¦   ¦   ¦   ¦   ¦   ¦       da.js
+¦   ¦   ¦   ¦   ¦   ¦       de.js
+¦   ¦   ¦   ¦   ¦   ¦       el.js
+¦   ¦   ¦   ¦   ¦   ¦       en-gb.js
+¦   ¦   ¦   ¦   ¦   ¦       en.js
+¦   ¦   ¦   ¦   ¦   ¦       eo.js
+¦   ¦   ¦   ¦   ¦   ¦       es.js
+¦   ¦   ¦   ¦   ¦   ¦       et.js
+¦   ¦   ¦   ¦   ¦   ¦       fa.js
+¦   ¦   ¦   ¦   ¦   ¦       fi.js
+¦   ¦   ¦   ¦   ¦   ¦       fr-ca.js
+¦   ¦   ¦   ¦   ¦   ¦       fr.js
+¦   ¦   ¦   ¦   ¦   ¦       gl.js
+¦   ¦   ¦   ¦   ¦   ¦       he.js
+¦   ¦   ¦   ¦   ¦   ¦       hr.js
+¦   ¦   ¦   ¦   ¦   ¦       hu.js
+¦   ¦   ¦   ¦   ¦   ¦       it.js
+¦   ¦   ¦   ¦   ¦   ¦       ja.js
+¦   ¦   ¦   ¦   ¦   ¦       km.js
+¦   ¦   ¦   ¦   ¦   ¦       ko.js
+¦   ¦   ¦   ¦   ¦   ¦       ku.js
+¦   ¦   ¦   ¦   ¦   ¦       lt.js
+¦   ¦   ¦   ¦   ¦   ¦       lv.js
+¦   ¦   ¦   ¦   ¦   ¦       nb.js
+¦   ¦   ¦   ¦   ¦   ¦       nl.js
+¦   ¦   ¦   ¦   ¦   ¦       no.js
+¦   ¦   ¦   ¦   ¦   ¦       pl.js
+¦   ¦   ¦   ¦   ¦   ¦       pt-br.js
+¦   ¦   ¦   ¦   ¦   ¦       pt.js
+¦   ¦   ¦   ¦   ¦   ¦       ro.js
+¦   ¦   ¦   ¦   ¦   ¦       ru.js
+¦   ¦   ¦   ¦   ¦   ¦       sk.js
+¦   ¦   ¦   ¦   ¦   ¦       sl.js
+¦   ¦   ¦   ¦   ¦   ¦       sq.js
+¦   ¦   ¦   ¦   ¦   ¦       sv.js
+¦   ¦   ¦   ¦   ¦   ¦       th.js
+¦   ¦   ¦   ¦   ¦   ¦       tr.js
+¦   ¦   ¦   ¦   ¦   ¦       tt.js
+¦   ¦   ¦   ¦   ¦   ¦       ug.js
+¦   ¦   ¦   ¦   ¦   ¦       uk.js
+¦   ¦   ¦   ¦   ¦   ¦       vi.js
+¦   ¦   ¦   ¦   ¦   ¦       zh-cn.js
+¦   ¦   ¦   ¦   ¦   ¦       zh.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   L---lib
+¦   ¦   ¦   ¦   ¦       L---highlight
+¦   ¦   ¦   ¦   ¦           ¦   CHANGES.md
+¦   ¦   ¦   ¦   ¦           ¦   highlight.pack.js
+¦   ¦   ¦   ¦   ¦           ¦   LICENSE
+¦   ¦   ¦   ¦   ¦           ¦   README.ru.md
+¦   ¦   ¦   ¦   ¦           ¦   
+¦   ¦   ¦   ¦   ¦           L---styles
+¦   ¦   ¦   ¦   ¦                   arta.css
+¦   ¦   ¦   ¦   ¦                   ascetic.css
+¦   ¦   ¦   ¦   ¦                   atelier-dune.dark.css
+¦   ¦   ¦   ¦   ¦                   atelier-dune.light.css
+¦   ¦   ¦   ¦   ¦                   atelier-forest.dark.css
+¦   ¦   ¦   ¦   ¦                   atelier-forest.light.css
+¦   ¦   ¦   ¦   ¦                   atelier-heath.dark.css
+¦   ¦   ¦   ¦   ¦                   atelier-heath.light.css
+¦   ¦   ¦   ¦   ¦                   atelier-lakeside.dark.css
+¦   ¦   ¦   ¦   ¦                   atelier-lakeside.light.css
+¦   ¦   ¦   ¦   ¦                   atelier-seaside.dark.css
+¦   ¦   ¦   ¦   ¦                   atelier-seaside.light.css
+¦   ¦   ¦   ¦   ¦                   brown_paper.css
+¦   ¦   ¦   ¦   ¦                   brown_papersq.png
+¦   ¦   ¦   ¦   ¦                   dark.css
+¦   ¦   ¦   ¦   ¦                   default.css
+¦   ¦   ¦   ¦   ¦                   docco.css
+¦   ¦   ¦   ¦   ¦                   far.css
+¦   ¦   ¦   ¦   ¦                   foundation.css
+¦   ¦   ¦   ¦   ¦                   github.css
+¦   ¦   ¦   ¦   ¦                   googlecode.css
+¦   ¦   ¦   ¦   ¦                   idea.css
+¦   ¦   ¦   ¦   ¦                   ir_black.css
+¦   ¦   ¦   ¦   ¦                   magula.css
+¦   ¦   ¦   ¦   ¦                   mono-blue.css
+¦   ¦   ¦   ¦   ¦                   monokai.css
+¦   ¦   ¦   ¦   ¦                   monokai_sublime.css
+¦   ¦   ¦   ¦   ¦                   obsidian.css
+¦   ¦   ¦   ¦   ¦                   paraiso.dark.css
+¦   ¦   ¦   ¦   ¦                   paraiso.light.css
+¦   ¦   ¦   ¦   ¦                   pojoaque.css
+¦   ¦   ¦   ¦   ¦                   pojoaque.jpg
+¦   ¦   ¦   ¦   ¦                   railscasts.css
+¦   ¦   ¦   ¦   ¦                   rainbow.css
+¦   ¦   ¦   ¦   ¦                   school_book.css
+¦   ¦   ¦   ¦   ¦                   school_book.png
+¦   ¦   ¦   ¦   ¦                   solarized_dark.css
+¦   ¦   ¦   ¦   ¦                   solarized_light.css
+¦   ¦   ¦   ¦   ¦                   sunburst.css
+¦   ¦   ¦   ¦   ¦                   tomorrow-night-blue.css
+¦   ¦   ¦   ¦   ¦                   tomorrow-night-bright.css
+¦   ¦   ¦   ¦   ¦                   tomorrow-night-eighties.css
+¦   ¦   ¦   ¦   ¦                   tomorrow-night.css
+¦   ¦   ¦   ¦   ¦                   tomorrow.css
+¦   ¦   ¦   ¦   ¦                   vs.css
+¦   ¦   ¦   ¦   ¦                   xcode.css
+¦   ¦   ¦   ¦   ¦                   zenburn.css
+¦   ¦   ¦   ¦   ¦                   
+¦   ¦   ¦   ¦   +---codesnippetgeshi
+¦   ¦   ¦   ¦   ¦       plugin.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---colordialog
+¦   ¦   ¦   ¦   ¦   L---dialogs
+¦   ¦   ¦   ¦   ¦           colordialog.css
+¦   ¦   ¦   ¦   ¦           colordialog.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---copyformatting
+¦   ¦   ¦   ¦   ¦   +---cursors
+¦   ¦   ¦   ¦   ¦   ¦       cursor-disabled.svg
+¦   ¦   ¦   ¦   ¦   ¦       cursor.svg
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   L---styles
+¦   ¦   ¦   ¦   ¦           copyformatting.css
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---devtools
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   L---lang
+¦   ¦   ¦   ¦   ¦           ar.js
+¦   ¦   ¦   ¦   ¦           bg.js
+¦   ¦   ¦   ¦   ¦           ca.js
+¦   ¦   ¦   ¦   ¦           cs.js
+¦   ¦   ¦   ¦   ¦           cy.js
+¦   ¦   ¦   ¦   ¦           da.js
+¦   ¦   ¦   ¦   ¦           de.js
+¦   ¦   ¦   ¦   ¦           el.js
+¦   ¦   ¦   ¦   ¦           en-gb.js
+¦   ¦   ¦   ¦   ¦           en.js
+¦   ¦   ¦   ¦   ¦           eo.js
+¦   ¦   ¦   ¦   ¦           es.js
+¦   ¦   ¦   ¦   ¦           et.js
+¦   ¦   ¦   ¦   ¦           eu.js
+¦   ¦   ¦   ¦   ¦           fa.js
+¦   ¦   ¦   ¦   ¦           fi.js
+¦   ¦   ¦   ¦   ¦           fr-ca.js
+¦   ¦   ¦   ¦   ¦           fr.js
+¦   ¦   ¦   ¦   ¦           gl.js
+¦   ¦   ¦   ¦   ¦           gu.js
+¦   ¦   ¦   ¦   ¦           he.js
+¦   ¦   ¦   ¦   ¦           hr.js
+¦   ¦   ¦   ¦   ¦           hu.js
+¦   ¦   ¦   ¦   ¦           id.js
+¦   ¦   ¦   ¦   ¦           it.js
+¦   ¦   ¦   ¦   ¦           ja.js
+¦   ¦   ¦   ¦   ¦           km.js
+¦   ¦   ¦   ¦   ¦           ko.js
+¦   ¦   ¦   ¦   ¦           ku.js
+¦   ¦   ¦   ¦   ¦           lt.js
+¦   ¦   ¦   ¦   ¦           lv.js
+¦   ¦   ¦   ¦   ¦           nb.js
+¦   ¦   ¦   ¦   ¦           nl.js
+¦   ¦   ¦   ¦   ¦           no.js
+¦   ¦   ¦   ¦   ¦           pl.js
+¦   ¦   ¦   ¦   ¦           pt-br.js
+¦   ¦   ¦   ¦   ¦           pt.js
+¦   ¦   ¦   ¦   ¦           ro.js
+¦   ¦   ¦   ¦   ¦           ru.js
+¦   ¦   ¦   ¦   ¦           si.js
+¦   ¦   ¦   ¦   ¦           sk.js
+¦   ¦   ¦   ¦   ¦           sl.js
+¦   ¦   ¦   ¦   ¦           sq.js
+¦   ¦   ¦   ¦   ¦           sv.js
+¦   ¦   ¦   ¦   ¦           tr.js
+¦   ¦   ¦   ¦   ¦           tt.js
+¦   ¦   ¦   ¦   ¦           ug.js
+¦   ¦   ¦   ¦   ¦           uk.js
+¦   ¦   ¦   ¦   ¦           vi.js
+¦   ¦   ¦   ¦   ¦           zh-cn.js
+¦   ¦   ¦   ¦   ¦           zh.js
+¦   ¦   ¦   ¦   ¦           _translationstatus.txt
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---dialog
+¦   ¦   ¦   ¦   ¦   ¦   dialogDefinition.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   L---styles
+¦   ¦   ¦   ¦   ¦           dialog.css
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---div
+¦   ¦   ¦   ¦   ¦   L---dialogs
+¦   ¦   ¦   ¦   ¦           div.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---divarea
+¦   ¦   ¦   ¦   ¦       plugin.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---docprops
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       docprops.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   +---icons
+¦   ¦   ¦   ¦   ¦   ¦   ¦   docprops-rtl.png
+¦   ¦   ¦   ¦   ¦   ¦   ¦   docprops.png
+¦   ¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   ¦   L---hidpi
+¦   ¦   ¦   ¦   ¦   ¦           docprops-rtl.png
+¦   ¦   ¦   ¦   ¦   ¦           docprops.png
+¦   ¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   ¦   L---lang
+¦   ¦   ¦   ¦   ¦           af.js
+¦   ¦   ¦   ¦   ¦           ar.js
+¦   ¦   ¦   ¦   ¦           bg.js
+¦   ¦   ¦   ¦   ¦           bn.js
+¦   ¦   ¦   ¦   ¦           bs.js
+¦   ¦   ¦   ¦   ¦           ca.js
+¦   ¦   ¦   ¦   ¦           cs.js
+¦   ¦   ¦   ¦   ¦           cy.js
+¦   ¦   ¦   ¦   ¦           da.js
+¦   ¦   ¦   ¦   ¦           de.js
+¦   ¦   ¦   ¦   ¦           el.js
+¦   ¦   ¦   ¦   ¦           en-au.js
+¦   ¦   ¦   ¦   ¦           en-ca.js
+¦   ¦   ¦   ¦   ¦           en-gb.js
+¦   ¦   ¦   ¦   ¦           en.js
+¦   ¦   ¦   ¦   ¦           eo.js
+¦   ¦   ¦   ¦   ¦           es.js
+¦   ¦   ¦   ¦   ¦           et.js
+¦   ¦   ¦   ¦   ¦           eu.js
+¦   ¦   ¦   ¦   ¦           fa.js
+¦   ¦   ¦   ¦   ¦           fi.js
+¦   ¦   ¦   ¦   ¦           fo.js
+¦   ¦   ¦   ¦   ¦           fr-ca.js
+¦   ¦   ¦   ¦   ¦           fr.js
+¦   ¦   ¦   ¦   ¦           gl.js
+¦   ¦   ¦   ¦   ¦           gu.js
+¦   ¦   ¦   ¦   ¦           he.js
+¦   ¦   ¦   ¦   ¦           hi.js
+¦   ¦   ¦   ¦   ¦           hr.js
+¦   ¦   ¦   ¦   ¦           hu.js
+¦   ¦   ¦   ¦   ¦           id.js
+¦   ¦   ¦   ¦   ¦           is.js
+¦   ¦   ¦   ¦   ¦           it.js
+¦   ¦   ¦   ¦   ¦           ja.js
+¦   ¦   ¦   ¦   ¦           ka.js
+¦   ¦   ¦   ¦   ¦           km.js
+¦   ¦   ¦   ¦   ¦           ko.js
+¦   ¦   ¦   ¦   ¦           ku.js
+¦   ¦   ¦   ¦   ¦           lt.js
+¦   ¦   ¦   ¦   ¦           lv.js
+¦   ¦   ¦   ¦   ¦           mk.js
+¦   ¦   ¦   ¦   ¦           mn.js
+¦   ¦   ¦   ¦   ¦           ms.js
+¦   ¦   ¦   ¦   ¦           nb.js
+¦   ¦   ¦   ¦   ¦           nl.js
+¦   ¦   ¦   ¦   ¦           no.js
+¦   ¦   ¦   ¦   ¦           pl.js
+¦   ¦   ¦   ¦   ¦           pt-br.js
+¦   ¦   ¦   ¦   ¦           pt.js
+¦   ¦   ¦   ¦   ¦           ro.js
+¦   ¦   ¦   ¦   ¦           ru.js
+¦   ¦   ¦   ¦   ¦           si.js
+¦   ¦   ¦   ¦   ¦           sk.js
+¦   ¦   ¦   ¦   ¦           sl.js
+¦   ¦   ¦   ¦   ¦           sq.js
+¦   ¦   ¦   ¦   ¦           sr-latn.js
+¦   ¦   ¦   ¦   ¦           sr.js
+¦   ¦   ¦   ¦   ¦           sv.js
+¦   ¦   ¦   ¦   ¦           th.js
+¦   ¦   ¦   ¦   ¦           tr.js
+¦   ¦   ¦   ¦   ¦           tt.js
+¦   ¦   ¦   ¦   ¦           ug.js
+¦   ¦   ¦   ¦   ¦           uk.js
+¦   ¦   ¦   ¦   ¦           vi.js
+¦   ¦   ¦   ¦   ¦           zh-cn.js
+¦   ¦   ¦   ¦   ¦           zh.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---embed
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   L---icons
+¦   ¦   ¦   ¦   ¦       ¦   embed.png
+¦   ¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦   ¦       L---hidpi
+¦   ¦   ¦   ¦   ¦               embed.png
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---embedbase
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       embedbase.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   L---lang
+¦   ¦   ¦   ¦   ¦           cs.js
+¦   ¦   ¦   ¦   ¦           da.js
+¦   ¦   ¦   ¦   ¦           de.js
+¦   ¦   ¦   ¦   ¦           en.js
+¦   ¦   ¦   ¦   ¦           eo.js
+¦   ¦   ¦   ¦   ¦           fr.js
+¦   ¦   ¦   ¦   ¦           gl.js
+¦   ¦   ¦   ¦   ¦           it.js
+¦   ¦   ¦   ¦   ¦           ko.js
+¦   ¦   ¦   ¦   ¦           ku.js
+¦   ¦   ¦   ¦   ¦           nb.js
+¦   ¦   ¦   ¦   ¦           nl.js
+¦   ¦   ¦   ¦   ¦           pl.js
+¦   ¦   ¦   ¦   ¦           pt-br.js
+¦   ¦   ¦   ¦   ¦           ru.js
+¦   ¦   ¦   ¦   ¦           sv.js
+¦   ¦   ¦   ¦   ¦           tr.js
+¦   ¦   ¦   ¦   ¦           zh-cn.js
+¦   ¦   ¦   ¦   ¦           zh.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---embedsemantic
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   L---icons
+¦   ¦   ¦   ¦   ¦       ¦   embedsemantic.png
+¦   ¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦   ¦       L---hidpi
+¦   ¦   ¦   ¦   ¦               embedsemantic.png
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---exportpdf
+¦   ¦   ¦   ¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   ¦   ¦   ¦   LICENSE.md
+¦   ¦   ¦   ¦   ¦   ¦   plugindefinition.js
+¦   ¦   ¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   L---tests
+¦   ¦   ¦   ¦   ¦       ¦   authentication.js
+¦   ¦   ¦   ¦   ¦       ¦   exportpdf.js
+¦   ¦   ¦   ¦   ¦       ¦   notification.js
+¦   ¦   ¦   ¦   ¦       ¦   resourcespaths.js
+¦   ¦   ¦   ¦   ¦       ¦   statistics.js
+¦   ¦   ¦   ¦   ¦       ¦   stylesheets.js
+¦   ¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦   ¦       +---manual
+¦   ¦   ¦   ¦   ¦       ¦   ¦   configfilename.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦   configfilename.md
+¦   ¦   ¦   ¦   ¦       ¦   ¦   emptyeditor.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦   emptyeditor.md
+¦   ¦   ¦   ¦   ¦       ¦   ¦   integration.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦   integration.md
+¦   ¦   ¦   ¦   ¦       ¦   ¦   notifications.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦   notifications.md
+¦   ¦   ¦   ¦   ¦       ¦   ¦   notificationsasync.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦   notificationsasync.md
+¦   ¦   ¦   ¦   ¦       ¦   ¦   paperformat.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦   paperformat.md
+¦   ¦   ¦   ¦   ¦       ¦   ¦   readonly.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦   readonly.md
+¦   ¦   ¦   ¦   ¦       ¦   ¦   stylesheets.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦   stylesheets.md
+¦   ¦   ¦   ¦   ¦       ¦   ¦   tokenfetching.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦   tokenfetching.md
+¦   ¦   ¦   ¦   ¦       ¦   ¦   tokentwoeditorscorrect.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦   tokentwoeditorscorrect.md
+¦   ¦   ¦   ¦   ¦       ¦   ¦   tokentwoeditorswrong.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦   tokentwoeditorswrong.md
+¦   ¦   ¦   ¦   ¦       ¦   ¦   tokenwithouturl.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦   tokenwithouturl.md
+¦   ¦   ¦   ¦   ¦       ¦   ¦   wrongendpoint.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦   wrongendpoint.md
+¦   ¦   ¦   ¦   ¦       ¦   ¦   
+¦   ¦   ¦   ¦   ¦       ¦   L---integrations
+¦   ¦   ¦   ¦   ¦       ¦           easyimage.html
+¦   ¦   ¦   ¦   ¦       ¦           easyimage.md
+¦   ¦   ¦   ¦   ¦       ¦           
+¦   ¦   ¦   ¦   ¦       L---_helpers
+¦   ¦   ¦   ¦   ¦               tools.js
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---filetools
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   L---lang
+¦   ¦   ¦   ¦   ¦           cs.js
+¦   ¦   ¦   ¦   ¦           da.js
+¦   ¦   ¦   ¦   ¦           de.js
+¦   ¦   ¦   ¦   ¦           en.js
+¦   ¦   ¦   ¦   ¦           eo.js
+¦   ¦   ¦   ¦   ¦           fr.js
+¦   ¦   ¦   ¦   ¦           gl.js
+¦   ¦   ¦   ¦   ¦           it.js
+¦   ¦   ¦   ¦   ¦           ko.js
+¦   ¦   ¦   ¦   ¦           ku.js
+¦   ¦   ¦   ¦   ¦           nb.js
+¦   ¦   ¦   ¦   ¦           nl.js
+¦   ¦   ¦   ¦   ¦           pl.js
+¦   ¦   ¦   ¦   ¦           pt-br.js
+¦   ¦   ¦   ¦   ¦           ru.js
+¦   ¦   ¦   ¦   ¦           sv.js
+¦   ¦   ¦   ¦   ¦           tr.js
+¦   ¦   ¦   ¦   ¦           zh-cn.js
+¦   ¦   ¦   ¦   ¦           zh.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---find
+¦   ¦   ¦   ¦   ¦   L---dialogs
+¦   ¦   ¦   ¦   ¦           find.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---flash
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       flash.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   L---images
+¦   ¦   ¦   ¦   ¦           placeholder.png
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---forms
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       button.js
+¦   ¦   ¦   ¦   ¦   ¦       checkbox.js
+¦   ¦   ¦   ¦   ¦   ¦       form.js
+¦   ¦   ¦   ¦   ¦   ¦       hiddenfield.js
+¦   ¦   ¦   ¦   ¦   ¦       radio.js
+¦   ¦   ¦   ¦   ¦   ¦       select.js
+¦   ¦   ¦   ¦   ¦   ¦       textarea.js
+¦   ¦   ¦   ¦   ¦   ¦       textfield.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   L---images
+¦   ¦   ¦   ¦   ¦           hiddenfield.gif
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       iframe.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   L---images
+¦   ¦   ¦   ¦   ¦           placeholder.png
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---iframedialog
+¦   ¦   ¦   ¦   ¦       plugin.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---image
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       image.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   L---images
+¦   ¦   ¦   ¦   ¦           noimage.png
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---image2
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       image2.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   +---icons
+¦   ¦   ¦   ¦   ¦   ¦   ¦   image.png
+¦   ¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   ¦   L---hidpi
+¦   ¦   ¦   ¦   ¦   ¦           image.png
+¦   ¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   ¦   L---lang
+¦   ¦   ¦   ¦   ¦           af.js
+¦   ¦   ¦   ¦   ¦           ar.js
+¦   ¦   ¦   ¦   ¦           bg.js
+¦   ¦   ¦   ¦   ¦           bn.js
+¦   ¦   ¦   ¦   ¦           bs.js
+¦   ¦   ¦   ¦   ¦           ca.js
+¦   ¦   ¦   ¦   ¦           cs.js
+¦   ¦   ¦   ¦   ¦           cy.js
+¦   ¦   ¦   ¦   ¦           da.js
+¦   ¦   ¦   ¦   ¦           de.js
+¦   ¦   ¦   ¦   ¦           el.js
+¦   ¦   ¦   ¦   ¦           en-au.js
+¦   ¦   ¦   ¦   ¦           en-ca.js
+¦   ¦   ¦   ¦   ¦           en-gb.js
+¦   ¦   ¦   ¦   ¦           en.js
+¦   ¦   ¦   ¦   ¦           eo.js
+¦   ¦   ¦   ¦   ¦           es.js
+¦   ¦   ¦   ¦   ¦           et.js
+¦   ¦   ¦   ¦   ¦           eu.js
+¦   ¦   ¦   ¦   ¦           fa.js
+¦   ¦   ¦   ¦   ¦           fi.js
+¦   ¦   ¦   ¦   ¦           fo.js
+¦   ¦   ¦   ¦   ¦           fr-ca.js
+¦   ¦   ¦   ¦   ¦           fr.js
+¦   ¦   ¦   ¦   ¦           gl.js
+¦   ¦   ¦   ¦   ¦           gu.js
+¦   ¦   ¦   ¦   ¦           he.js
+¦   ¦   ¦   ¦   ¦           hi.js
+¦   ¦   ¦   ¦   ¦           hr.js
+¦   ¦   ¦   ¦   ¦           hu.js
+¦   ¦   ¦   ¦   ¦           id.js
+¦   ¦   ¦   ¦   ¦           is.js
+¦   ¦   ¦   ¦   ¦           it.js
+¦   ¦   ¦   ¦   ¦           ja.js
+¦   ¦   ¦   ¦   ¦           ka.js
+¦   ¦   ¦   ¦   ¦           km.js
+¦   ¦   ¦   ¦   ¦           ko.js
+¦   ¦   ¦   ¦   ¦           ku.js
+¦   ¦   ¦   ¦   ¦           lt.js
+¦   ¦   ¦   ¦   ¦           lv.js
+¦   ¦   ¦   ¦   ¦           mk.js
+¦   ¦   ¦   ¦   ¦           mn.js
+¦   ¦   ¦   ¦   ¦           ms.js
+¦   ¦   ¦   ¦   ¦           nb.js
+¦   ¦   ¦   ¦   ¦           nl.js
+¦   ¦   ¦   ¦   ¦           no.js
+¦   ¦   ¦   ¦   ¦           pl.js
+¦   ¦   ¦   ¦   ¦           pt-br.js
+¦   ¦   ¦   ¦   ¦           pt.js
+¦   ¦   ¦   ¦   ¦           ro.js
+¦   ¦   ¦   ¦   ¦           ru.js
+¦   ¦   ¦   ¦   ¦           si.js
+¦   ¦   ¦   ¦   ¦           sk.js
+¦   ¦   ¦   ¦   ¦           sl.js
+¦   ¦   ¦   ¦   ¦           sq.js
+¦   ¦   ¦   ¦   ¦           sr-latn.js
+¦   ¦   ¦   ¦   ¦           sr.js
+¦   ¦   ¦   ¦   ¦           sv.js
+¦   ¦   ¦   ¦   ¦           th.js
+¦   ¦   ¦   ¦   ¦           tr.js
+¦   ¦   ¦   ¦   ¦           tt.js
+¦   ¦   ¦   ¦   ¦           ug.js
+¦   ¦   ¦   ¦   ¦           uk.js
+¦   ¦   ¦   ¦   ¦           vi.js
+¦   ¦   ¦   ¦   ¦           zh-cn.js
+¦   ¦   ¦   ¦   ¦           zh.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---language
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---icons
+¦   ¦   ¦   ¦   ¦   ¦   ¦   language.png
+¦   ¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   ¦   L---hidpi
+¦   ¦   ¦   ¦   ¦   ¦           language.png
+¦   ¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   ¦   L---lang
+¦   ¦   ¦   ¦   ¦           ar.js
+¦   ¦   ¦   ¦   ¦           bg.js
+¦   ¦   ¦   ¦   ¦           ca.js
+¦   ¦   ¦   ¦   ¦           cs.js
+¦   ¦   ¦   ¦   ¦           cy.js
+¦   ¦   ¦   ¦   ¦           da.js
+¦   ¦   ¦   ¦   ¦           de.js
+¦   ¦   ¦   ¦   ¦           el.js
+¦   ¦   ¦   ¦   ¦           en-gb.js
+¦   ¦   ¦   ¦   ¦           en.js
+¦   ¦   ¦   ¦   ¦           eo.js
+¦   ¦   ¦   ¦   ¦           es.js
+¦   ¦   ¦   ¦   ¦           fa.js
+¦   ¦   ¦   ¦   ¦           fi.js
+¦   ¦   ¦   ¦   ¦           fo.js
+¦   ¦   ¦   ¦   ¦           fr.js
+¦   ¦   ¦   ¦   ¦           gl.js
+¦   ¦   ¦   ¦   ¦           he.js
+¦   ¦   ¦   ¦   ¦           hr.js
+¦   ¦   ¦   ¦   ¦           hu.js
+¦   ¦   ¦   ¦   ¦           it.js
+¦   ¦   ¦   ¦   ¦           ja.js
+¦   ¦   ¦   ¦   ¦           km.js
+¦   ¦   ¦   ¦   ¦           ko.js
+¦   ¦   ¦   ¦   ¦           ku.js
+¦   ¦   ¦   ¦   ¦           nb.js
+¦   ¦   ¦   ¦   ¦           nl.js
+¦   ¦   ¦   ¦   ¦           no.js
+¦   ¦   ¦   ¦   ¦           pl.js
+¦   ¦   ¦   ¦   ¦           pt-br.js
+¦   ¦   ¦   ¦   ¦           pt.js
+¦   ¦   ¦   ¦   ¦           ru.js
+¦   ¦   ¦   ¦   ¦           sk.js
+¦   ¦   ¦   ¦   ¦           sl.js
+¦   ¦   ¦   ¦   ¦           sq.js
+¦   ¦   ¦   ¦   ¦           sv.js
+¦   ¦   ¦   ¦   ¦           tr.js
+¦   ¦   ¦   ¦   ¦           tt.js
+¦   ¦   ¦   ¦   ¦           uk.js
+¦   ¦   ¦   ¦   ¦           vi.js
+¦   ¦   ¦   ¦   ¦           zh-cn.js
+¦   ¦   ¦   ¦   ¦           zh.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---lineutils
+¦   ¦   ¦   ¦   ¦       plugin.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---link
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       anchor.js
+¦   ¦   ¦   ¦   ¦   ¦       link.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   L---images
+¦   ¦   ¦   ¦   ¦       ¦   anchor.png
+¦   ¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦   ¦       L---hidpi
+¦   ¦   ¦   ¦   ¦               anchor.png
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---liststyle
+¦   ¦   ¦   ¦   ¦   L---dialogs
+¦   ¦   ¦   ¦   ¦           liststyle.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---magicline
+¦   ¦   ¦   ¦   ¦   L---images
+¦   ¦   ¦   ¦   ¦       ¦   icon-rtl.png
+¦   ¦   ¦   ¦   ¦       ¦   icon.png
+¦   ¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦   ¦       L---hidpi
+¦   ¦   ¦   ¦   ¦               icon-rtl.png
+¦   ¦   ¦   ¦   ¦               icon.png
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---mathjax
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       mathjax.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   +---icons
+¦   ¦   ¦   ¦   ¦   ¦   ¦   mathjax.png
+¦   ¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   ¦   L---hidpi
+¦   ¦   ¦   ¦   ¦   ¦           mathjax.png
+¦   ¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   ¦   ¦   ¦       loader.gif
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   L---lang
+¦   ¦   ¦   ¦   ¦           af.js
+¦   ¦   ¦   ¦   ¦           ar.js
+¦   ¦   ¦   ¦   ¦           bg.js
+¦   ¦   ¦   ¦   ¦           ca.js
+¦   ¦   ¦   ¦   ¦           cs.js
+¦   ¦   ¦   ¦   ¦           cy.js
+¦   ¦   ¦   ¦   ¦           da.js
+¦   ¦   ¦   ¦   ¦           de.js
+¦   ¦   ¦   ¦   ¦           el.js
+¦   ¦   ¦   ¦   ¦           en-gb.js
+¦   ¦   ¦   ¦   ¦           en.js
+¦   ¦   ¦   ¦   ¦           eo.js
+¦   ¦   ¦   ¦   ¦           es.js
+¦   ¦   ¦   ¦   ¦           fa.js
+¦   ¦   ¦   ¦   ¦           fi.js
+¦   ¦   ¦   ¦   ¦           fr.js
+¦   ¦   ¦   ¦   ¦           gl.js
+¦   ¦   ¦   ¦   ¦           he.js
+¦   ¦   ¦   ¦   ¦           hr.js
+¦   ¦   ¦   ¦   ¦           hu.js
+¦   ¦   ¦   ¦   ¦           it.js
+¦   ¦   ¦   ¦   ¦           ja.js
+¦   ¦   ¦   ¦   ¦           km.js
+¦   ¦   ¦   ¦   ¦           ko.js
+¦   ¦   ¦   ¦   ¦           ku.js
+¦   ¦   ¦   ¦   ¦           lt.js
+¦   ¦   ¦   ¦   ¦           nb.js
+¦   ¦   ¦   ¦   ¦           nl.js
+¦   ¦   ¦   ¦   ¦           no.js
+¦   ¦   ¦   ¦   ¦           pl.js
+¦   ¦   ¦   ¦   ¦           pt-br.js
+¦   ¦   ¦   ¦   ¦           pt.js
+¦   ¦   ¦   ¦   ¦           ro.js
+¦   ¦   ¦   ¦   ¦           ru.js
+¦   ¦   ¦   ¦   ¦           sk.js
+¦   ¦   ¦   ¦   ¦           sl.js
+¦   ¦   ¦   ¦   ¦           sq.js
+¦   ¦   ¦   ¦   ¦           sv.js
+¦   ¦   ¦   ¦   ¦           tr.js
+¦   ¦   ¦   ¦   ¦           tt.js
+¦   ¦   ¦   ¦   ¦           uk.js
+¦   ¦   ¦   ¦   ¦           vi.js
+¦   ¦   ¦   ¦   ¦           zh-cn.js
+¦   ¦   ¦   ¦   ¦           zh.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---menubutton
+¦   ¦   ¦   ¦   ¦       plugin.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---notification
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   L---lang
+¦   ¦   ¦   ¦   ¦           cs.js
+¦   ¦   ¦   ¦   ¦           da.js
+¦   ¦   ¦   ¦   ¦           de.js
+¦   ¦   ¦   ¦   ¦           en.js
+¦   ¦   ¦   ¦   ¦           eo.js
+¦   ¦   ¦   ¦   ¦           fr.js
+¦   ¦   ¦   ¦   ¦           gl.js
+¦   ¦   ¦   ¦   ¦           it.js
+¦   ¦   ¦   ¦   ¦           ko.js
+¦   ¦   ¦   ¦   ¦           ku.js
+¦   ¦   ¦   ¦   ¦           nb.js
+¦   ¦   ¦   ¦   ¦           nl.js
+¦   ¦   ¦   ¦   ¦           pl.js
+¦   ¦   ¦   ¦   ¦           pt-br.js
+¦   ¦   ¦   ¦   ¦           ru.js
+¦   ¦   ¦   ¦   ¦           sv.js
+¦   ¦   ¦   ¦   ¦           tr.js
+¦   ¦   ¦   ¦   ¦           zh-cn.js
+¦   ¦   ¦   ¦   ¦           zh.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---notificationaggregator
+¦   ¦   ¦   ¦   ¦       plugin.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---pagebreak
+¦   ¦   ¦   ¦   ¦   L---images
+¦   ¦   ¦   ¦   ¦           pagebreak.gif
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---pastefromgdocs
+¦   ¦   ¦   ¦   ¦   L---filter
+¦   ¦   ¦   ¦   ¦           default.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---pastefromlibreoffice
+¦   ¦   ¦   ¦   ¦   L---filter
+¦   ¦   ¦   ¦   ¦           default.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---pastefromword
+¦   ¦   ¦   ¦   ¦   L---filter
+¦   ¦   ¦   ¦   ¦           default.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---pastetools
+¦   ¦   ¦   ¦   ¦   L---filter
+¦   ¦   ¦   ¦   ¦           common.js
+¦   ¦   ¦   ¦   ¦           image.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---placeholder
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       placeholder.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   +---icons
+¦   ¦   ¦   ¦   ¦   ¦   ¦   placeholder.png
+¦   ¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   ¦   L---hidpi
+¦   ¦   ¦   ¦   ¦   ¦           placeholder.png
+¦   ¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   ¦   L---lang
+¦   ¦   ¦   ¦   ¦           af.js
+¦   ¦   ¦   ¦   ¦           ar.js
+¦   ¦   ¦   ¦   ¦           bg.js
+¦   ¦   ¦   ¦   ¦           ca.js
+¦   ¦   ¦   ¦   ¦           cs.js
+¦   ¦   ¦   ¦   ¦           cy.js
+¦   ¦   ¦   ¦   ¦           da.js
+¦   ¦   ¦   ¦   ¦           de.js
+¦   ¦   ¦   ¦   ¦           el.js
+¦   ¦   ¦   ¦   ¦           en-gb.js
+¦   ¦   ¦   ¦   ¦           en.js
+¦   ¦   ¦   ¦   ¦           eo.js
+¦   ¦   ¦   ¦   ¦           es.js
+¦   ¦   ¦   ¦   ¦           et.js
+¦   ¦   ¦   ¦   ¦           eu.js
+¦   ¦   ¦   ¦   ¦           fa.js
+¦   ¦   ¦   ¦   ¦           fi.js
+¦   ¦   ¦   ¦   ¦           fr-ca.js
+¦   ¦   ¦   ¦   ¦           fr.js
+¦   ¦   ¦   ¦   ¦           gl.js
+¦   ¦   ¦   ¦   ¦           he.js
+¦   ¦   ¦   ¦   ¦           hr.js
+¦   ¦   ¦   ¦   ¦           hu.js
+¦   ¦   ¦   ¦   ¦           id.js
+¦   ¦   ¦   ¦   ¦           it.js
+¦   ¦   ¦   ¦   ¦           ja.js
+¦   ¦   ¦   ¦   ¦           km.js
+¦   ¦   ¦   ¦   ¦           ko.js
+¦   ¦   ¦   ¦   ¦           ku.js
+¦   ¦   ¦   ¦   ¦           lv.js
+¦   ¦   ¦   ¦   ¦           nb.js
+¦   ¦   ¦   ¦   ¦           nl.js
+¦   ¦   ¦   ¦   ¦           no.js
+¦   ¦   ¦   ¦   ¦           pl.js
+¦   ¦   ¦   ¦   ¦           pt-br.js
+¦   ¦   ¦   ¦   ¦           pt.js
+¦   ¦   ¦   ¦   ¦           ru.js
+¦   ¦   ¦   ¦   ¦           si.js
+¦   ¦   ¦   ¦   ¦           sk.js
+¦   ¦   ¦   ¦   ¦           sl.js
+¦   ¦   ¦   ¦   ¦           sq.js
+¦   ¦   ¦   ¦   ¦           sv.js
+¦   ¦   ¦   ¦   ¦           th.js
+¦   ¦   ¦   ¦   ¦           tr.js
+¦   ¦   ¦   ¦   ¦           tt.js
+¦   ¦   ¦   ¦   ¦           ug.js
+¦   ¦   ¦   ¦   ¦           uk.js
+¦   ¦   ¦   ¦   ¦           vi.js
+¦   ¦   ¦   ¦   ¦           zh-cn.js
+¦   ¦   ¦   ¦   ¦           zh.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---preview
+¦   ¦   ¦   ¦   ¦   ¦   preview.html
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   ¦   ¦   ¦       pagebreak.gif
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   L---styles
+¦   ¦   ¦   ¦   ¦           screen.css
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---scayt
+¦   ¦   ¦   ¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   ¦   ¦   ¦   LICENSE.md
+¦   ¦   ¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       dialog.css
+¦   ¦   ¦   ¦   ¦   ¦       options.js
+¦   ¦   ¦   ¦   ¦   ¦       toolbar.css
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   L---skins
+¦   ¦   ¦   ¦   ¦       L---moono-lisa
+¦   ¦   ¦   ¦   ¦               scayt.css
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---sharedspace
+¦   ¦   ¦   ¦   ¦       plugin.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---showblocks
+¦   ¦   ¦   ¦   ¦   L---images
+¦   ¦   ¦   ¦   ¦           block_address.png
+¦   ¦   ¦   ¦   ¦           block_blockquote.png
+¦   ¦   ¦   ¦   ¦           block_div.png
+¦   ¦   ¦   ¦   ¦           block_h1.png
+¦   ¦   ¦   ¦   ¦           block_h2.png
+¦   ¦   ¦   ¦   ¦           block_h3.png
+¦   ¦   ¦   ¦   ¦           block_h4.png
+¦   ¦   ¦   ¦   ¦           block_h5.png
+¦   ¦   ¦   ¦   ¦           block_h6.png
+¦   ¦   ¦   ¦   ¦           block_p.png
+¦   ¦   ¦   ¦   ¦           block_pre.png
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---smiley
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       smiley.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   L---images
+¦   ¦   ¦   ¦   ¦           angel_smile.gif
+¦   ¦   ¦   ¦   ¦           angel_smile.png
+¦   ¦   ¦   ¦   ¦           angry_smile.gif
+¦   ¦   ¦   ¦   ¦           angry_smile.png
+¦   ¦   ¦   ¦   ¦           broken_heart.gif
+¦   ¦   ¦   ¦   ¦           broken_heart.png
+¦   ¦   ¦   ¦   ¦           confused_smile.gif
+¦   ¦   ¦   ¦   ¦           confused_smile.png
+¦   ¦   ¦   ¦   ¦           cry_smile.gif
+¦   ¦   ¦   ¦   ¦           cry_smile.png
+¦   ¦   ¦   ¦   ¦           devil_smile.gif
+¦   ¦   ¦   ¦   ¦           devil_smile.png
+¦   ¦   ¦   ¦   ¦           embaressed_smile.gif
+¦   ¦   ¦   ¦   ¦           embarrassed_smile.gif
+¦   ¦   ¦   ¦   ¦           embarrassed_smile.png
+¦   ¦   ¦   ¦   ¦           envelope.gif
+¦   ¦   ¦   ¦   ¦           envelope.png
+¦   ¦   ¦   ¦   ¦           heart.gif
+¦   ¦   ¦   ¦   ¦           heart.png
+¦   ¦   ¦   ¦   ¦           kiss.gif
+¦   ¦   ¦   ¦   ¦           kiss.png
+¦   ¦   ¦   ¦   ¦           lightbulb.gif
+¦   ¦   ¦   ¦   ¦           lightbulb.png
+¦   ¦   ¦   ¦   ¦           omg_smile.gif
+¦   ¦   ¦   ¦   ¦           omg_smile.png
+¦   ¦   ¦   ¦   ¦           regular_smile.gif
+¦   ¦   ¦   ¦   ¦           regular_smile.png
+¦   ¦   ¦   ¦   ¦           sad_smile.gif
+¦   ¦   ¦   ¦   ¦           sad_smile.png
+¦   ¦   ¦   ¦   ¦           shades_smile.gif
+¦   ¦   ¦   ¦   ¦           shades_smile.png
+¦   ¦   ¦   ¦   ¦           teeth_smile.gif
+¦   ¦   ¦   ¦   ¦           teeth_smile.png
+¦   ¦   ¦   ¦   ¦           thumbs_down.gif
+¦   ¦   ¦   ¦   ¦           thumbs_down.png
+¦   ¦   ¦   ¦   ¦           thumbs_up.gif
+¦   ¦   ¦   ¦   ¦           thumbs_up.png
+¦   ¦   ¦   ¦   ¦           tongue_smile.gif
+¦   ¦   ¦   ¦   ¦           tongue_smile.png
+¦   ¦   ¦   ¦   ¦           tounge_smile.gif
+¦   ¦   ¦   ¦   ¦           whatchutalkingabout_smile.gif
+¦   ¦   ¦   ¦   ¦           whatchutalkingabout_smile.png
+¦   ¦   ¦   ¦   ¦           wink_smile.gif
+¦   ¦   ¦   ¦   ¦           wink_smile.png
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---sourcedialog
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       sourcedialog.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   +---icons
+¦   ¦   ¦   ¦   ¦   ¦   ¦   sourcedialog-rtl.png
+¦   ¦   ¦   ¦   ¦   ¦   ¦   sourcedialog.png
+¦   ¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   ¦   L---hidpi
+¦   ¦   ¦   ¦   ¦   ¦           sourcedialog-rtl.png
+¦   ¦   ¦   ¦   ¦   ¦           sourcedialog.png
+¦   ¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   ¦   L---lang
+¦   ¦   ¦   ¦   ¦           af.js
+¦   ¦   ¦   ¦   ¦           ar.js
+¦   ¦   ¦   ¦   ¦           bg.js
+¦   ¦   ¦   ¦   ¦           bn.js
+¦   ¦   ¦   ¦   ¦           bs.js
+¦   ¦   ¦   ¦   ¦           ca.js
+¦   ¦   ¦   ¦   ¦           cs.js
+¦   ¦   ¦   ¦   ¦           cy.js
+¦   ¦   ¦   ¦   ¦           da.js
+¦   ¦   ¦   ¦   ¦           de.js
+¦   ¦   ¦   ¦   ¦           el.js
+¦   ¦   ¦   ¦   ¦           en-au.js
+¦   ¦   ¦   ¦   ¦           en-ca.js
+¦   ¦   ¦   ¦   ¦           en-gb.js
+¦   ¦   ¦   ¦   ¦           en.js
+¦   ¦   ¦   ¦   ¦           eo.js
+¦   ¦   ¦   ¦   ¦           es.js
+¦   ¦   ¦   ¦   ¦           et.js
+¦   ¦   ¦   ¦   ¦           eu.js
+¦   ¦   ¦   ¦   ¦           fa.js
+¦   ¦   ¦   ¦   ¦           fi.js
+¦   ¦   ¦   ¦   ¦           fo.js
+¦   ¦   ¦   ¦   ¦           fr-ca.js
+¦   ¦   ¦   ¦   ¦           fr.js
+¦   ¦   ¦   ¦   ¦           gl.js
+¦   ¦   ¦   ¦   ¦           gu.js
+¦   ¦   ¦   ¦   ¦           he.js
+¦   ¦   ¦   ¦   ¦           hi.js
+¦   ¦   ¦   ¦   ¦           hr.js
+¦   ¦   ¦   ¦   ¦           hu.js
+¦   ¦   ¦   ¦   ¦           id.js
+¦   ¦   ¦   ¦   ¦           is.js
+¦   ¦   ¦   ¦   ¦           it.js
+¦   ¦   ¦   ¦   ¦           ja.js
+¦   ¦   ¦   ¦   ¦           ka.js
+¦   ¦   ¦   ¦   ¦           km.js
+¦   ¦   ¦   ¦   ¦           ko.js
+¦   ¦   ¦   ¦   ¦           ku.js
+¦   ¦   ¦   ¦   ¦           lt.js
+¦   ¦   ¦   ¦   ¦           lv.js
+¦   ¦   ¦   ¦   ¦           mn.js
+¦   ¦   ¦   ¦   ¦           ms.js
+¦   ¦   ¦   ¦   ¦           nb.js
+¦   ¦   ¦   ¦   ¦           nl.js
+¦   ¦   ¦   ¦   ¦           no.js
+¦   ¦   ¦   ¦   ¦           pl.js
+¦   ¦   ¦   ¦   ¦           pt-br.js
+¦   ¦   ¦   ¦   ¦           pt.js
+¦   ¦   ¦   ¦   ¦           ro.js
+¦   ¦   ¦   ¦   ¦           ru.js
+¦   ¦   ¦   ¦   ¦           si.js
+¦   ¦   ¦   ¦   ¦           sk.js
+¦   ¦   ¦   ¦   ¦           sl.js
+¦   ¦   ¦   ¦   ¦           sq.js
+¦   ¦   ¦   ¦   ¦           sr-latn.js
+¦   ¦   ¦   ¦   ¦           sr.js
+¦   ¦   ¦   ¦   ¦           sv.js
+¦   ¦   ¦   ¦   ¦           th.js
+¦   ¦   ¦   ¦   ¦           tr.js
+¦   ¦   ¦   ¦   ¦           tt.js
+¦   ¦   ¦   ¦   ¦           ug.js
+¦   ¦   ¦   ¦   ¦           uk.js
+¦   ¦   ¦   ¦   ¦           vi.js
+¦   ¦   ¦   ¦   ¦           zh-cn.js
+¦   ¦   ¦   ¦   ¦           zh.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---specialchar
+¦   ¦   ¦   ¦   ¦   L---dialogs
+¦   ¦   ¦   ¦   ¦       ¦   specialchar.js
+¦   ¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦   ¦       L---lang
+¦   ¦   ¦   ¦   ¦               af.js
+¦   ¦   ¦   ¦   ¦               ar.js
+¦   ¦   ¦   ¦   ¦               az.js
+¦   ¦   ¦   ¦   ¦               bg.js
+¦   ¦   ¦   ¦   ¦               ca.js
+¦   ¦   ¦   ¦   ¦               cs.js
+¦   ¦   ¦   ¦   ¦               cy.js
+¦   ¦   ¦   ¦   ¦               da.js
+¦   ¦   ¦   ¦   ¦               de-ch.js
+¦   ¦   ¦   ¦   ¦               de.js
+¦   ¦   ¦   ¦   ¦               el.js
+¦   ¦   ¦   ¦   ¦               en-au.js
+¦   ¦   ¦   ¦   ¦               en-ca.js
+¦   ¦   ¦   ¦   ¦               en-gb.js
+¦   ¦   ¦   ¦   ¦               en.js
+¦   ¦   ¦   ¦   ¦               eo.js
+¦   ¦   ¦   ¦   ¦               es-mx.js
+¦   ¦   ¦   ¦   ¦               es.js
+¦   ¦   ¦   ¦   ¦               et.js
+¦   ¦   ¦   ¦   ¦               eu.js
+¦   ¦   ¦   ¦   ¦               fa.js
+¦   ¦   ¦   ¦   ¦               fi.js
+¦   ¦   ¦   ¦   ¦               fr-ca.js
+¦   ¦   ¦   ¦   ¦               fr.js
+¦   ¦   ¦   ¦   ¦               gl.js
+¦   ¦   ¦   ¦   ¦               he.js
+¦   ¦   ¦   ¦   ¦               hr.js
+¦   ¦   ¦   ¦   ¦               hu.js
+¦   ¦   ¦   ¦   ¦               id.js
+¦   ¦   ¦   ¦   ¦               it.js
+¦   ¦   ¦   ¦   ¦               ja.js
+¦   ¦   ¦   ¦   ¦               km.js
+¦   ¦   ¦   ¦   ¦               ko.js
+¦   ¦   ¦   ¦   ¦               ku.js
+¦   ¦   ¦   ¦   ¦               lt.js
+¦   ¦   ¦   ¦   ¦               lv.js
+¦   ¦   ¦   ¦   ¦               nb.js
+¦   ¦   ¦   ¦   ¦               nl.js
+¦   ¦   ¦   ¦   ¦               no.js
+¦   ¦   ¦   ¦   ¦               oc.js
+¦   ¦   ¦   ¦   ¦               pl.js
+¦   ¦   ¦   ¦   ¦               pt-br.js
+¦   ¦   ¦   ¦   ¦               pt.js
+¦   ¦   ¦   ¦   ¦               ro.js
+¦   ¦   ¦   ¦   ¦               ru.js
+¦   ¦   ¦   ¦   ¦               si.js
+¦   ¦   ¦   ¦   ¦               sk.js
+¦   ¦   ¦   ¦   ¦               sl.js
+¦   ¦   ¦   ¦   ¦               sq.js
+¦   ¦   ¦   ¦   ¦               sr-latn.js
+¦   ¦   ¦   ¦   ¦               sr.js
+¦   ¦   ¦   ¦   ¦               sv.js
+¦   ¦   ¦   ¦   ¦               th.js
+¦   ¦   ¦   ¦   ¦               tr.js
+¦   ¦   ¦   ¦   ¦               tt.js
+¦   ¦   ¦   ¦   ¦               ug.js
+¦   ¦   ¦   ¦   ¦               uk.js
+¦   ¦   ¦   ¦   ¦               vi.js
+¦   ¦   ¦   ¦   ¦               zh-cn.js
+¦   ¦   ¦   ¦   ¦               zh.js
+¦   ¦   ¦   ¦   ¦               _translationstatus.txt
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---stylesheetparser
+¦   ¦   ¦   ¦   ¦       plugin.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---table
+¦   ¦   ¦   ¦   ¦   L---dialogs
+¦   ¦   ¦   ¦   ¦           table.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---tableresize
+¦   ¦   ¦   ¦   ¦       plugin.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---tableselection
+¦   ¦   ¦   ¦   ¦   L---styles
+¦   ¦   ¦   ¦   ¦           tableselection.css
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---tabletools
+¦   ¦   ¦   ¦   ¦   L---dialogs
+¦   ¦   ¦   ¦   ¦           tableCell.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---templates
+¦   ¦   ¦   ¦   ¦   ¦   templatedefinition.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       templates.css
+¦   ¦   ¦   ¦   ¦   ¦       templates.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   L---templates
+¦   ¦   ¦   ¦   ¦       ¦   default.js
+¦   ¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦   ¦       L---images
+¦   ¦   ¦   ¦   ¦               template1.gif
+¦   ¦   ¦   ¦   ¦               template2.gif
+¦   ¦   ¦   ¦   ¦               template3.gif
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---uicolor
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       uicolor.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   +---icons
+¦   ¦   ¦   ¦   ¦   ¦   ¦   uicolor.png
+¦   ¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   ¦   L---hidpi
+¦   ¦   ¦   ¦   ¦   ¦           uicolor.png
+¦   ¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   ¦   +---lang
+¦   ¦   ¦   ¦   ¦   ¦       af.js
+¦   ¦   ¦   ¦   ¦   ¦       ar.js
+¦   ¦   ¦   ¦   ¦   ¦       bg.js
+¦   ¦   ¦   ¦   ¦   ¦       ca.js
+¦   ¦   ¦   ¦   ¦   ¦       cs.js
+¦   ¦   ¦   ¦   ¦   ¦       cy.js
+¦   ¦   ¦   ¦   ¦   ¦       da.js
+¦   ¦   ¦   ¦   ¦   ¦       de.js
+¦   ¦   ¦   ¦   ¦   ¦       el.js
+¦   ¦   ¦   ¦   ¦   ¦       en-gb.js
+¦   ¦   ¦   ¦   ¦   ¦       en.js
+¦   ¦   ¦   ¦   ¦   ¦       eo.js
+¦   ¦   ¦   ¦   ¦   ¦       es.js
+¦   ¦   ¦   ¦   ¦   ¦       et.js
+¦   ¦   ¦   ¦   ¦   ¦       eu.js
+¦   ¦   ¦   ¦   ¦   ¦       fa.js
+¦   ¦   ¦   ¦   ¦   ¦       fi.js
+¦   ¦   ¦   ¦   ¦   ¦       fr-ca.js
+¦   ¦   ¦   ¦   ¦   ¦       fr.js
+¦   ¦   ¦   ¦   ¦   ¦       gl.js
+¦   ¦   ¦   ¦   ¦   ¦       he.js
+¦   ¦   ¦   ¦   ¦   ¦       hr.js
+¦   ¦   ¦   ¦   ¦   ¦       hu.js
+¦   ¦   ¦   ¦   ¦   ¦       id.js
+¦   ¦   ¦   ¦   ¦   ¦       it.js
+¦   ¦   ¦   ¦   ¦   ¦       ja.js
+¦   ¦   ¦   ¦   ¦   ¦       km.js
+¦   ¦   ¦   ¦   ¦   ¦       ko.js
+¦   ¦   ¦   ¦   ¦   ¦       ku.js
+¦   ¦   ¦   ¦   ¦   ¦       lv.js
+¦   ¦   ¦   ¦   ¦   ¦       mk.js
+¦   ¦   ¦   ¦   ¦   ¦       nb.js
+¦   ¦   ¦   ¦   ¦   ¦       nl.js
+¦   ¦   ¦   ¦   ¦   ¦       no.js
+¦   ¦   ¦   ¦   ¦   ¦       pl.js
+¦   ¦   ¦   ¦   ¦   ¦       pt-br.js
+¦   ¦   ¦   ¦   ¦   ¦       pt.js
+¦   ¦   ¦   ¦   ¦   ¦       ru.js
+¦   ¦   ¦   ¦   ¦   ¦       si.js
+¦   ¦   ¦   ¦   ¦   ¦       sk.js
+¦   ¦   ¦   ¦   ¦   ¦       sl.js
+¦   ¦   ¦   ¦   ¦   ¦       sq.js
+¦   ¦   ¦   ¦   ¦   ¦       sv.js
+¦   ¦   ¦   ¦   ¦   ¦       tr.js
+¦   ¦   ¦   ¦   ¦   ¦       tt.js
+¦   ¦   ¦   ¦   ¦   ¦       ug.js
+¦   ¦   ¦   ¦   ¦   ¦       uk.js
+¦   ¦   ¦   ¦   ¦   ¦       vi.js
+¦   ¦   ¦   ¦   ¦   ¦       zh-cn.js
+¦   ¦   ¦   ¦   ¦   ¦       zh.js
+¦   ¦   ¦   ¦   ¦   ¦       _translationstatus.txt
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   L---yui
+¦   ¦   ¦   ¦   ¦       ¦   yui.js
+¦   ¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦   ¦       L---assets
+¦   ¦   ¦   ¦   ¦               hue_bg.png
+¦   ¦   ¦   ¦   ¦               hue_thumb.png
+¦   ¦   ¦   ¦   ¦               picker_mask.png
+¦   ¦   ¦   ¦   ¦               picker_thumb.png
+¦   ¦   ¦   ¦   ¦               yui.css
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---uploadimage
+¦   ¦   ¦   ¦   ¦       plugin.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---uploadwidget
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   L---lang
+¦   ¦   ¦   ¦   ¦           cs.js
+¦   ¦   ¦   ¦   ¦           da.js
+¦   ¦   ¦   ¦   ¦           de.js
+¦   ¦   ¦   ¦   ¦           en.js
+¦   ¦   ¦   ¦   ¦           eo.js
+¦   ¦   ¦   ¦   ¦           fr.js
+¦   ¦   ¦   ¦   ¦           gl.js
+¦   ¦   ¦   ¦   ¦           hu.js
+¦   ¦   ¦   ¦   ¦           it.js
+¦   ¦   ¦   ¦   ¦           ko.js
+¦   ¦   ¦   ¦   ¦           ku.js
+¦   ¦   ¦   ¦   ¦           nb.js
+¦   ¦   ¦   ¦   ¦           nl.js
+¦   ¦   ¦   ¦   ¦           pl.js
+¦   ¦   ¦   ¦   ¦           pt-br.js
+¦   ¦   ¦   ¦   ¦           ru.js
+¦   ¦   ¦   ¦   ¦           sv.js
+¦   ¦   ¦   ¦   ¦           tr.js
+¦   ¦   ¦   ¦   ¦           zh-cn.js
+¦   ¦   ¦   ¦   ¦           zh.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---widget
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   ¦   ¦   ¦       handle.png
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   L---lang
+¦   ¦   ¦   ¦   ¦           af.js
+¦   ¦   ¦   ¦   ¦           ar.js
+¦   ¦   ¦   ¦   ¦           bg.js
+¦   ¦   ¦   ¦   ¦           ca.js
+¦   ¦   ¦   ¦   ¦           cs.js
+¦   ¦   ¦   ¦   ¦           cy.js
+¦   ¦   ¦   ¦   ¦           da.js
+¦   ¦   ¦   ¦   ¦           de.js
+¦   ¦   ¦   ¦   ¦           el.js
+¦   ¦   ¦   ¦   ¦           en-gb.js
+¦   ¦   ¦   ¦   ¦           en.js
+¦   ¦   ¦   ¦   ¦           eo.js
+¦   ¦   ¦   ¦   ¦           es.js
+¦   ¦   ¦   ¦   ¦           fa.js
+¦   ¦   ¦   ¦   ¦           fi.js
+¦   ¦   ¦   ¦   ¦           fr.js
+¦   ¦   ¦   ¦   ¦           gl.js
+¦   ¦   ¦   ¦   ¦           he.js
+¦   ¦   ¦   ¦   ¦           hr.js
+¦   ¦   ¦   ¦   ¦           hu.js
+¦   ¦   ¦   ¦   ¦           it.js
+¦   ¦   ¦   ¦   ¦           ja.js
+¦   ¦   ¦   ¦   ¦           km.js
+¦   ¦   ¦   ¦   ¦           ko.js
+¦   ¦   ¦   ¦   ¦           ku.js
+¦   ¦   ¦   ¦   ¦           lv.js
+¦   ¦   ¦   ¦   ¦           nb.js
+¦   ¦   ¦   ¦   ¦           nl.js
+¦   ¦   ¦   ¦   ¦           no.js
+¦   ¦   ¦   ¦   ¦           pl.js
+¦   ¦   ¦   ¦   ¦           pt-br.js
+¦   ¦   ¦   ¦   ¦           pt.js
+¦   ¦   ¦   ¦   ¦           ru.js
+¦   ¦   ¦   ¦   ¦           sk.js
+¦   ¦   ¦   ¦   ¦           sl.js
+¦   ¦   ¦   ¦   ¦           sq.js
+¦   ¦   ¦   ¦   ¦           sv.js
+¦   ¦   ¦   ¦   ¦           tr.js
+¦   ¦   ¦   ¦   ¦           tt.js
+¦   ¦   ¦   ¦   ¦           uk.js
+¦   ¦   ¦   ¦   ¦           vi.js
+¦   ¦   ¦   ¦   ¦           zh-cn.js
+¦   ¦   ¦   ¦   ¦           zh.js
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---wsc
+¦   ¦   ¦   ¦   ¦   ¦   LICENSE.md
+¦   ¦   ¦   ¦   ¦   ¦   plugin.js
+¦   ¦   ¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---dialogs
+¦   ¦   ¦   ¦   ¦   ¦       ciframe.html
+¦   ¦   ¦   ¦   ¦   ¦       tmpFrameset.html
+¦   ¦   ¦   ¦   ¦   ¦       wsc.css
+¦   ¦   ¦   ¦   ¦   ¦       wsc.js
+¦   ¦   ¦   ¦   ¦   ¦       wsc_ie.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   +---icons
+¦   ¦   ¦   ¦   ¦   ¦   ¦   spellchecker.png
+¦   ¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   ¦   L---hidpi
+¦   ¦   ¦   ¦   ¦   ¦           spellchecker.png
+¦   ¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   ¦   +---lang
+¦   ¦   ¦   ¦   ¦   ¦       af.js
+¦   ¦   ¦   ¦   ¦   ¦       ar.js
+¦   ¦   ¦   ¦   ¦   ¦       bg.js
+¦   ¦   ¦   ¦   ¦   ¦       bn.js
+¦   ¦   ¦   ¦   ¦   ¦       bs.js
+¦   ¦   ¦   ¦   ¦   ¦       ca.js
+¦   ¦   ¦   ¦   ¦   ¦       cs.js
+¦   ¦   ¦   ¦   ¦   ¦       cy.js
+¦   ¦   ¦   ¦   ¦   ¦       da.js
+¦   ¦   ¦   ¦   ¦   ¦       de.js
+¦   ¦   ¦   ¦   ¦   ¦       el.js
+¦   ¦   ¦   ¦   ¦   ¦       en-au.js
+¦   ¦   ¦   ¦   ¦   ¦       en-ca.js
+¦   ¦   ¦   ¦   ¦   ¦       en-gb.js
+¦   ¦   ¦   ¦   ¦   ¦       en.js
+¦   ¦   ¦   ¦   ¦   ¦       eo.js
+¦   ¦   ¦   ¦   ¦   ¦       es.js
+¦   ¦   ¦   ¦   ¦   ¦       et.js
+¦   ¦   ¦   ¦   ¦   ¦       eu.js
+¦   ¦   ¦   ¦   ¦   ¦       fa.js
+¦   ¦   ¦   ¦   ¦   ¦       fi.js
+¦   ¦   ¦   ¦   ¦   ¦       fo.js
+¦   ¦   ¦   ¦   ¦   ¦       fr-ca.js
+¦   ¦   ¦   ¦   ¦   ¦       fr.js
+¦   ¦   ¦   ¦   ¦   ¦       gl.js
+¦   ¦   ¦   ¦   ¦   ¦       gu.js
+¦   ¦   ¦   ¦   ¦   ¦       he.js
+¦   ¦   ¦   ¦   ¦   ¦       hi.js
+¦   ¦   ¦   ¦   ¦   ¦       hr.js
+¦   ¦   ¦   ¦   ¦   ¦       hu.js
+¦   ¦   ¦   ¦   ¦   ¦       is.js
+¦   ¦   ¦   ¦   ¦   ¦       it.js
+¦   ¦   ¦   ¦   ¦   ¦       ja.js
+¦   ¦   ¦   ¦   ¦   ¦       ka.js
+¦   ¦   ¦   ¦   ¦   ¦       km.js
+¦   ¦   ¦   ¦   ¦   ¦       ko.js
+¦   ¦   ¦   ¦   ¦   ¦       ku.js
+¦   ¦   ¦   ¦   ¦   ¦       lt.js
+¦   ¦   ¦   ¦   ¦   ¦       lv.js
+¦   ¦   ¦   ¦   ¦   ¦       mk.js
+¦   ¦   ¦   ¦   ¦   ¦       mn.js
+¦   ¦   ¦   ¦   ¦   ¦       ms.js
+¦   ¦   ¦   ¦   ¦   ¦       nb.js
+¦   ¦   ¦   ¦   ¦   ¦       nl.js
+¦   ¦   ¦   ¦   ¦   ¦       no.js
+¦   ¦   ¦   ¦   ¦   ¦       pl.js
+¦   ¦   ¦   ¦   ¦   ¦       pt-br.js
+¦   ¦   ¦   ¦   ¦   ¦       pt.js
+¦   ¦   ¦   ¦   ¦   ¦       ro.js
+¦   ¦   ¦   ¦   ¦   ¦       ru.js
+¦   ¦   ¦   ¦   ¦   ¦       sk.js
+¦   ¦   ¦   ¦   ¦   ¦       sl.js
+¦   ¦   ¦   ¦   ¦   ¦       sr-latn.js
+¦   ¦   ¦   ¦   ¦   ¦       sr.js
+¦   ¦   ¦   ¦   ¦   ¦       sv.js
+¦   ¦   ¦   ¦   ¦   ¦       th.js
+¦   ¦   ¦   ¦   ¦   ¦       tr.js
+¦   ¦   ¦   ¦   ¦   ¦       ug.js
+¦   ¦   ¦   ¦   ¦   ¦       uk.js
+¦   ¦   ¦   ¦   ¦   ¦       vi.js
+¦   ¦   ¦   ¦   ¦   ¦       zh-cn.js
+¦   ¦   ¦   ¦   ¦   ¦       zh.js
+¦   ¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   ¦   L---skins
+¦   ¦   ¦   ¦   ¦       L---moono-lisa
+¦   ¦   ¦   ¦   ¦               wsc.css
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   L---xml
+¦   ¦   ¦   ¦           plugin.js
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---skins
+¦   ¦   ¦   ¦   +---moono
+¦   ¦   ¦   ¦   ¦   ¦   dialog.css
+¦   ¦   ¦   ¦   ¦   ¦   dialog_ie.css
+¦   ¦   ¦   ¦   ¦   ¦   dialog_ie7.css
+¦   ¦   ¦   ¦   ¦   ¦   dialog_ie8.css
+¦   ¦   ¦   ¦   ¦   ¦   dialog_iequirks.css
+¦   ¦   ¦   ¦   ¦   ¦   editor.css
+¦   ¦   ¦   ¦   ¦   ¦   editor_gecko.css
+¦   ¦   ¦   ¦   ¦   ¦   editor_ie.css
+¦   ¦   ¦   ¦   ¦   ¦   editor_ie7.css
+¦   ¦   ¦   ¦   ¦   ¦   editor_ie8.css
+¦   ¦   ¦   ¦   ¦   ¦   editor_iequirks.css
+¦   ¦   ¦   ¦   ¦   ¦   icons.png
+¦   ¦   ¦   ¦   ¦   ¦   icons_hidpi.png
+¦   ¦   ¦   ¦   ¦   ¦   readme.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   L---images
+¦   ¦   ¦   ¦   ¦       ¦   arrow.png
+¦   ¦   ¦   ¦   ¦       ¦   close.png
+¦   ¦   ¦   ¦   ¦       ¦   lock-open.png
+¦   ¦   ¦   ¦   ¦       ¦   lock.png
+¦   ¦   ¦   ¦   ¦       ¦   refresh.png
+¦   ¦   ¦   ¦   ¦       ¦   spinner.gif
+¦   ¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦   ¦       L---hidpi
+¦   ¦   ¦   ¦   ¦               close.png
+¦   ¦   ¦   ¦   ¦               lock-open.png
+¦   ¦   ¦   ¦   ¦               lock.png
+¦   ¦   ¦   ¦   ¦               refresh.png
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   L---moono-lisa
+¦   ¦   ¦   ¦       ¦   dialog.css
+¦   ¦   ¦   ¦       ¦   dialog_ie.css
+¦   ¦   ¦   ¦       ¦   dialog_ie8.css
+¦   ¦   ¦   ¦       ¦   dialog_iequirks.css
+¦   ¦   ¦   ¦       ¦   editor.css
+¦   ¦   ¦   ¦       ¦   editor_gecko.css
+¦   ¦   ¦   ¦       ¦   editor_ie.css
+¦   ¦   ¦   ¦       ¦   editor_ie8.css
+¦   ¦   ¦   ¦       ¦   editor_iequirks.css
+¦   ¦   ¦   ¦       ¦   icons.png
+¦   ¦   ¦   ¦       ¦   icons_hidpi.png
+¦   ¦   ¦   ¦       ¦   readme.md
+¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦       L---images
+¦   ¦   ¦   ¦           ¦   arrow.png
+¦   ¦   ¦   ¦           ¦   close.png
+¦   ¦   ¦   ¦           ¦   lock-open.png
+¦   ¦   ¦   ¦           ¦   lock.png
+¦   ¦   ¦   ¦           ¦   refresh.png
+¦   ¦   ¦   ¦           ¦   spinner.gif
+¦   ¦   ¦   ¦           ¦   
+¦   ¦   ¦   ¦           L---hidpi
+¦   ¦   ¦   ¦                   close.png
+¦   ¦   ¦   ¦                   lock-open.png
+¦   ¦   ¦   ¦                   lock.png
+¦   ¦   ¦   ¦                   refresh.png
+¦   ¦   ¦   ¦                   
+¦   ¦   ¦   L---vendor
+¦   ¦   ¦           promise.js
+¦   ¦   ¦           
+¦   ¦   +---file-icons
+¦   ¦   ¦       doc.png
+¦   ¦   ¦       file.png
+¦   ¦   ¦       pdf.png
+¦   ¦   ¦       ppt.png
+¦   ¦   ¦       swf.png
+¦   ¦   ¦       txt.png
+¦   ¦   ¦       xls.png
+¦   ¦   ¦       
+¦   ¦   L---galleriffic
+¦   ¦       +---css
+¦   ¦       ¦       basic.css
+¦   ¦       ¦       black.css
+¦   ¦       ¦       caption.png
+¦   ¦       ¦       galleriffic-1.css
+¦   ¦       ¦       galleriffic-2.css
+¦   ¦       ¦       galleriffic-3.css
+¦   ¦       ¦       galleriffic-4.css
+¦   ¦       ¦       galleriffic-5.css
+¦   ¦       ¦       jush.css
+¦   ¦       ¦       loader.gif
+¦   ¦       ¦       loaderWhite.gif
+¦   ¦       ¦       nextPageArrow.gif
+¦   ¦       ¦       nextPageArrowWhite.gif
+¦   ¦       ¦       prevPageArrow.gif
+¦   ¦       ¦       prevPageArrowWhite.gif
+¦   ¦       ¦       white.css
+¦   ¦       ¦       
+¦   ¦       L---js
+¦   ¦               jquery-1.3.2.js
+¦   ¦               jquery.galleriffic.js
+¦   ¦               jquery.history.js
+¦   ¦               jquery.opacityrollover.js
+¦   ¦               jush.js
+¦   ¦               
+¦   L---debug_toolbar
+¦       +---css
+¦       ¦       print.css
+¦       ¦       toolbar.css
+¦       ¦       
+¦       L---js
+¦               history.js
+¦               redirect.js
+¦               timer.js
+¦               toolbar.js
+¦               utils.js
+¦               
+L---templates
+    +---blog
+    ¦   ¦   about.html
+    ¦   ¦   article.html
+    ¦   ¦   article_add.html
+    ¦   ¦   article_comment.html
+    ¦   ¦   article_open.html
+    ¦   ¦   article_update.html
+    ¦   ¦   base.html
+    ¦   ¦   del_context.html
+    ¦   ¦   edit_comment.html
+    ¦   ¦   news_open.html
+    ¦   ¦   platform.html
+    ¦   ¦   
+    ¦   L---tags
+    ¦           list_categories.html
+    ¦           list_news_tags.html
+    ¦           list_tags.html
+    ¦           
+    L---users
+            login.html
+            password_change_done.html
+            password_change_form.html
+            password_reset_complete.html
+            password_reset_confirm.html
+            password_reset_done.html
+            password_reset_email.html
+            password_reset_form.html
+            profile.html
+            register.html
+            register_done.html
+            

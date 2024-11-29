@@ -1,0 +1,47 @@
+{% extends 'blog/base.html' %}
+{% load blog_tags %}
+
+{% block sidebar %}
+    {% show_all_news_tags %}
+{% endblock %}
+
+{% block breadcrumbs %}
+	<div class="header">
+				<ul class="mainmenu">
+                    <li class="topic-text"> {{page.title}}</li>
+				</ul>
+				<div class="clear"></div>
+	</div>
+{% endblock %}
+
+{% block content %}
+
+<div class="article-panel">
+        <! -- Теги -- >
+                    {% with page.tags.all as tags_news %}
+                    {% if tags_news %}
+                        <ul class="tags-list">
+                        <li class="tags-list">Теги новости:</li>
+                            {% for t in tags_news %}
+                                <li><a href="{{t.get_absolute_url}}">{{t.tag}}</a></li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+        {% endwith %}
+</div>
+
+<!--    {% if page.photo %}-->
+<!--    <p><img class="img-article-left" src="{{page.photo.url}}"></p>-->
+<!--    {% endif %}-->
+
+    {{page.content|safe}}
+
+<!--                <p class="link-read-post">-->
+<!--                        <a href="{% url 'article_comment' page.slug %}">Коментировать</a>-->
+<!--                </p>-->
+    <br>
+{% endblock %}
+
+{% block navigation %}
+
+{% endblock %}

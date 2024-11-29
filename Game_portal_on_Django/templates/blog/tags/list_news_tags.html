@@ -1,0 +1,8 @@
+{% if tag_news %}
+    <ul class="tags-list">
+            <li class="tags-list">Теги новостей:</li>
+        {% for t in tag_news %}
+            <li><a href="{{t.get_absolute_url}}">{{t.tag}}</a></li>
+        {% endfor %}
+    </ul>
+{% endif %}

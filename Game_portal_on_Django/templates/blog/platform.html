@@ -1,0 +1,54 @@
+{% extends "blog/base.html" %}
+{% load blog_tags %}
+
+{% block sidebar %}
+    {% show_all_news_tags %}
+{% endblock %}
+
+{% block breadcrumbs %}
+	<div class="header">
+				<ul class="mainmenu">
+                    <li class="topic-text"> {{title}}</li>
+				</ul>
+				<div class="clear"></div>
+	</div>
+{% endblock %}
+{% block content %}
+
+    <ul class="list-articles">
+        {% for p in page %}
+            <li>
+                <div class="article-panel">
+                    <p class="last">Дата публикации: {{p.pub_date|date:"d-m-Y H:i:s"}}</p>
+                </div>
+                {% if p.photo %}
+                    <p><img class="img-article-left thumb" src="{{p.photo.url}}"></p>
+                {% endif %}
+                <h2>{{p.title}}</h2>
+
+                {{p.excerpt|safe}}
+
+                <div class="clear"></dIv>
+                <p class="link-read-post">
+                    <a href="{{ p.get_absolute_url }}">Читать Новость</a> </p>
+
+            </li>
+        {% empty %}
+            <p align="center">Нет постов.</p>
+        {% endfor %}
+    </ul>
+{% endblock %}
+
+
+
+
+{% block navigation %}
+    {{ block.super }}
+{% endblock %}
+
+
+
+
+
+
+
