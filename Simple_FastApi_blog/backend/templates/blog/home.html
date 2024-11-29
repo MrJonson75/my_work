@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+<title>GameWorld</title>
+{% endblock %}
+
+
+{% block content %}
+<div class="container">
+    <h2 class="text-muted">Список статей</h2>
+    <div class="row justify-content-center">
+
+        {% for blog in blogs %}
+        <div class="col-sm-4 mb-4">
+          <div class="card">
+            <div class="card-header">
+                <h5 class="card-text">{{ blog.title }}</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Опубликован : {{blog.created_at.strftime('%Y-%m-%d')}}</p>
+              <small class="card-text text-muted">Контекст : {{blog.content[:60]}}...</small>
+              <br>
+              <a href="/app/blog/{{blog.id}}" class="btn btn-outline-success">Читать</a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+
+    </div>
+</div>
+
+{% endblock %}

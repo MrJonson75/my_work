@@ -1,0 +1,89 @@
+Ñòðóêòóðà ïàïîê òîìà Íîâûé òîì
+Ñåðèéíûé íîìåð òîìà: 24E5-4646
+D:\DIPLOM\COD\FASTAPI
+¦   .gitignore
+¦   fastapi.txt
+¦   readme.txt
+¦   sql_app.db
+¦   
+L---backend
+    ¦   .env
+    ¦   alembic.ini
+    ¦   main.py
+    ¦   requirements.txt
+    ¦   sql_app.db
+    ¦   
+    +---alembic
+    ¦   ¦   env.py
+    ¦   ¦   README
+    ¦   ¦   script.py.mako
+    ¦   ¦   
+    ¦   L---versions
+    ¦           70ed100ddcd4_create_user_and_blog_table_migrations.py
+    ¦           de03f03f0e23_cre.py
+    ¦           e063a4ae98b0_create_user_and_blog.py
+    ¦           
+    +---apis
+    ¦   ¦   base.py
+    ¦   ¦   __init__.py
+    ¦   ¦   
+    ¦   L---v1
+    ¦           route_login.py
+    ¦           route_user.py
+    ¦           
+    +---apps
+    ¦   ¦   base.py
+    ¦   ¦   
+    ¦   L---v1
+    ¦           route_blog.py
+    ¦           route_login.py
+    ¦           
+    +---core
+    ¦       config.py
+    ¦       hashing.py
+    ¦       security.py
+    ¦       __init__.py
+    ¦       
+    +---db
+    ¦   ¦   base.py
+    ¦   ¦   base_class.py
+    ¦   ¦   session.py
+    ¦   ¦   __init__.py
+    ¦   ¦   
+    ¦   +---models
+    ¦   ¦       blog.py
+    ¦   ¦       user.py
+    ¦   ¦       __init__.py
+    ¦   ¦       
+    ¦   L---repository
+    ¦           blog.py
+    ¦           login.py
+    ¦           user.py
+    ¦           
+    +---schemas
+    ¦       blog.py
+    ¦       token.py
+    ¦       user.py
+    ¦       __init__.py
+    ¦       
+    +---static
+    ¦   L---images
+    ¦           logo.png
+    ¦           main.ico
+    ¦           
+    L---templates
+        ¦   base.html
+        ¦   
+        +---auth
+        ¦       login.html
+        ¦       register.html
+        ¦       
+        +---blog
+        ¦       create_blog.html
+        ¦       detail.html
+        ¦       home.html
+        ¦       
+        L---components
+                alert.html
+                navbar.html
+                
