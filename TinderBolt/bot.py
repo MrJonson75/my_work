@@ -218,10 +218,10 @@ dialog.user = {}    # словарь для хранения ответов по
 
 
 #   Токен ChatGPT
-chatgpt = ChatGptService(token='gpt:IMAtcJ134WVIxVeFe7I2JFkblB3TH88zgyZ5JYpVQKKxZnKk')
+chatgpt = ChatGptService(token='gpt:')
 
 #   Токен Телеграмм
-app = ApplicationBuilder().token("7372936707:AAGOamOSJsQSBDX0WpTonoHjFKeQmtHcK38").build()
+app = ApplicationBuilder().token(":").build()
 
 # подключение хендлеров
 app.add_handler(CommandHandler('start', start))
